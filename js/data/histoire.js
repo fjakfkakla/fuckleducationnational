@@ -1,12 +1,12 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'histoire', nom: 'Histoire', emoji: '🏛️', couleur: '#f59e0b',
-desc: "Programme « Grandes étapes de la formation du monde moderne » : Méditerranée antique et médiévale, XVe-XVIe siècles, l'État moderne (France/Angleterre), dynamiques des XVIIe-XVIIIe siècles. En histoire, tout se joue sur les dates-repères, le vocabulaire et la capacité à expliquer des causes et des conséquences.",
+id: 'histoire', nom: 'Histoire', couleur: '#f59e0b',
+desc: "« Grandes étapes de la formation du monde moderne » : Méditerranée antique et médiévale, XVe-XVIe siècles, l'État moderne en France et en Angleterre, les XVIIe-XVIIIe siècles. Dates repères, vocabulaire et explication des causes et conséquences.",
 ressources: [
- { nom: 'Lumni Histoire 2nde', url: 'https://www.lumni.fr/lycee/seconde/histoire', ico: '📺', desc: 'Vidéos courtes par chapitre.' },
- { nom: 'Kartable Histoire 2nde', url: 'https://www.kartable.fr/seconde/histoire', ico: '📚', desc: 'Fiches de cours et frises.' },
- { nom: 'Nota Bene / Histoire (YouTube)', url: 'https://www.youtube.com/results?search_query=histoire+seconde+cours', ico: '🎥', desc: 'Pour comprendre le contexte de façon vivante.' },
- { nom: 'Programme officiel', url: 'https://eduscol.education.fr/1646/programmes-et-ressources-en-histoire-geographie-voie-gt', ico: '📜', desc: 'Les 4 thèmes et les points de passage obligatoires.' }
+ { nom: 'Lumni Histoire 2nde', url: 'https://www.lumni.fr/lycee/seconde/histoire', desc: 'Vidéos courtes par chapitre.' },
+ { nom: 'Kartable Histoire 2nde', url: 'https://www.kartable.fr/seconde/histoire', desc: 'Fiches de cours et frises.' },
+ { nom: 'Nota Bene / Histoire (YouTube)', url: 'https://www.youtube.com/results?search_query=histoire+seconde+cours', desc: 'Pour comprendre le contexte de façon vivante.' },
+ { nom: 'Programme officiel', url: 'https://eduscol.education.fr/1646/programmes-et-ressources-en-histoire-geographie-voie-gt', desc: 'Les 4 thèmes et les points de passage obligatoires.' }
 ],
 chapitres: [
 { id: 'h-athenes-rome', theme: 'Le monde méditerranéen : empreintes de l\'Antiquité et du Moyen Âge', titre: 'La Méditerranée antique : Athènes et Rome', duree: 35,

@@ -1,13 +1,13 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'pc', nom: 'Physique-Chimie', emoji: '⚗️', couleur: '#0ea5e9',
-desc: "Trois thèmes officiels : constitution et transformations de la matière, mouvement et interactions, ondes et signaux. Les points qui tombent toujours : concentration, atome et classification, équation-bilan, vecteur vitesse, loi de Snell-Descartes, loi d'Ohm.",
+id: 'pc', nom: 'Physique-Chimie', couleur: '#0ea5e9',
+desc: "Trois thèmes : constitution et transformations de la matière, mouvement et interactions, ondes et signaux. Points récurrents en évaluation : concentration, atome et classification, équation de réaction, vecteur vitesse, loi de Snell-Descartes, loi d'Ohm.",
 ressources: [
- { nom: 'Physique-Chimie Lycée (Mathrix / Les Bons Profs)', url: 'https://www.youtube.com/results?search_query=physique+chimie+seconde+cours', ico: '🎥', desc: 'Vidéos courtes par chapitre, idéal pour comprendre avant de s\'entraîner.' },
- { nom: 'Lumni 2nde Physique-Chimie', url: 'https://www.lumni.fr/lycee/seconde/physique-chimie', ico: '📺', desc: 'Contenus gratuits de l\'Éducation nationale, structurés selon le programme.' },
- { nom: 'PhET (simulations)', url: 'https://phet.colorado.edu/fr/', ico: '🧪', desc: 'Simulations interactives : circuits, réfraction, états de la matière. Pour comprendre en manipulant.' },
- { nom: 'Kartable Physique-Chimie 2nde', url: 'https://www.kartable.fr/seconde/physique-chimie', ico: '📚', desc: 'Fiches et exercices corrigés.' },
- { nom: 'Programme officiel', url: 'https://eduscol.education.fr/1746/programmes-et-ressources-en-physique-chimie-voie-gt', ico: '📜', desc: 'Pour vérifier ce qui est exigible.' }
+ { nom: 'Physique-Chimie Lycée (Mathrix / Les Bons Profs)', url: 'https://www.youtube.com/results?search_query=physique+chimie+seconde+cours', desc: 'Vidéos courtes par chapitre, idéal pour comprendre avant de s\'entraîner.' },
+ { nom: 'Lumni 2nde Physique-Chimie', url: 'https://www.lumni.fr/lycee/seconde/physique-chimie', desc: 'Contenus gratuits de l\'Éducation nationale, structurés selon le programme.' },
+ { nom: 'PhET (simulations)', url: 'https://phet.colorado.edu/fr/', desc: 'Simulations interactives : circuits, réfraction, états de la matière. Pour comprendre en manipulant.' },
+ { nom: 'Kartable Physique-Chimie 2nde', url: 'https://www.kartable.fr/seconde/physique-chimie', desc: 'Fiches et exercices corrigés.' },
+ { nom: 'Programme officiel', url: 'https://eduscol.education.fr/1746/programmes-et-ressources-en-physique-chimie-voie-gt', desc: 'Pour vérifier ce qui est exigible.' }
 ],
 chapitres: [
 { id: 'pc-solutions', theme: 'Constitution et transformations de la matière', titre: 'Corps purs, mélanges et solutions aqueuses', duree: 30,
@@ -19,7 +19,7 @@ cours: [
 - **Composition** : l'air est un mélange ≈ 78 % N₂, 21 % O₂, 1 % autres (Ar, CO₂…).
 - La **masse volumique** ρ = m/V (en g/mL ou kg/m³) caractérise une espèce : eau 1,0 g/mL, huile ≈ 0,92 g/mL (elle flotte).`},
 { titre: 'Solutions aqueuses', texte: `
-Une **solution** = un **soluté** (espèce dissoute) + un **solvant** (l'eau pour une solution aqueuse). Dissolution ≠ fusion !
+Une **solution** = un **soluté** (espèce dissoute) + un **solvant** (l'eau pour une solution aqueuse). Dissolution ≠ fusion.
 **Concentration en masse** :
 $ C_m = m_soluté / V_solution      (en g/L ; m en g, V en L)
 Ex : 5 g de sel dans 250 mL d'eau : C_m = 5/0,25 = 20 g/L.
@@ -51,7 +51,7 @@ notions: [
  { terme: 'Test au sulfate de cuivre anhydre', def: 'Blanc, devient bleu en présence d\'eau.' }
 ],
 quiz: [
- { q: 'On dissout 8 g de sucre dans 400 mL d\'eau. Concentration en masse ?', choix: ['0,02 g/L', '20 g/L', '2 g/L', '3 200 g/L'], r: 1, exp: 'C_m = 8 / 0,400 = 20 g/L. Convertir les mL en L !' },
+ { q: 'On dissout 8 g de sucre dans 400 mL d\'eau. Concentration en masse ?', choix: ['0,02 g/L', '20 g/L', '2 g/L', '3 200 g/L'], r: 1, exp: 'C_m = 8 / 0,400 = 20 g/L. Convertir les mL en L.' },
  { q: 'Pour diluer 5 fois 20 mL de solution mère, on complète à…', choix: ['25 mL', '100 mL', '4 mL', '200 mL'], r: 1, exp: 'V_fille = F × V_mère = 5 × 20 = 100 mL.' },
  { q: 'L\'eau de chaux se trouble en présence de…', choix: ['dioxygène', 'dihydrogène', 'dioxyde de carbone', 'eau'], r: 2, exp: 'Test caractéristique du CO₂.' },
  { q: 'L\'air est…', choix: ['un corps pur', 'un mélange homogène', 'un mélange hétérogène', 'une solution aqueuse'], r: 1, exp: '≈ 78 % N₂ + 21 % O₂ + 1 % autres, indiscernables.' },
@@ -175,7 +175,7 @@ exos: [
 N forme 3 liaisons N–H (3 doublets liants) et garde 1 doublet non liant.
 Les 4 doublets se repoussent : géométrie **pyramidale** (le doublet non liant occupe un sommet).` },
  { enonce: 'Écrire l\'équation de dissolution du nitrate de calcium Ca(NO₃)₂ dans l\'eau.', correction: `Ca(NO₃)₂(s) → Ca²⁺(aq) + 2 NO₃⁻(aq).
-Vérification : charges +2 et 2×(−1) = 0 ✔ ; éléments conservés ✔.` }
+Vérification : charges +2 et 2×(−1) = 0 ; éléments conservés.` }
 ]},
 
 { id: 'pc-transformations', theme: 'Constitution et transformations de la matière', titre: 'Transformations physiques, chimiques et nucléaires', duree: 40,
@@ -253,7 +253,7 @@ Avec des points espacés de τ = 0,1 s et M₃M₄ = 2,5 cm à l'échelle 1/10 (
 On croise la forme de la trajectoire et l'évolution de la vitesse :
 - **Rectiligne uniforme** : ligne droite, vitesse constante (v→ constant). Points équidistants.
 - **Rectiligne accéléré / ralenti** : droite, points de plus en plus / de moins en moins espacés.
-- **Circulaire uniforme** : cercle, norme de v constante, mais v→ change de direction (donc v→ n'est pas constant !).
+- **Circulaire uniforme** : cercle, norme de v constante, mais v→ change de direction (donc v→ n'est pas constant).
 ! Le vecteur vitesse est constant seulement si direction, sens ET norme sont constants.`}
 ],
 notions: [
@@ -295,7 +295,7 @@ Le poids est vertical, vers le bas, appliqué au centre de gravité. La **masse*
 { titre: 'Principe d\'inertie', texte: `
 $ Un système est immobile ou en mouvement rectiligne uniforme ⟺ les forces qui s'exercent sur lui se compensent (somme vectorielle nulle).
 Deux lectures :
-- Si les forces se compensent (ou pas de force), le vecteur vitesse est constant (pas forcément nul !).
+- Si les forces se compensent (ou pas de force), le vecteur vitesse est constant (pas forcément nul).
 - Si le vecteur vitesse varie (direction OU norme), alors les forces ne se compensent pas.
 Ex : un palet sur une table à coussin d'air glisse en ligne droite à vitesse constante : poids et réaction se compensent. Une voiture qui tourne à vitesse constante : v→ change de direction ⟹ les forces ne se compensent pas.
 ! Une force n'est pas nécessaire pour entretenir un mouvement, seulement pour le modifier. C'est contre-intuitif mais c'est la base de toute la mécanique.`}
@@ -415,7 +415,7 @@ quiz: [
  { q: 'Un rayon passe de l\'air (n = 1) à l\'eau (n = 1,33) avec i₁ = 40°. Angle réfracté ?', choix: ['≈ 29°', '≈ 40°', '≈ 59°', '≈ 13°'], r: 0, exp: 'sin i₂ = sin 40°/1,33 = 0,643/1,33 ≈ 0,483 ⟹ i₂ ≈ 28,9°.' },
  { q: 'Un spectre de raies d\'absorption est…', choix: ['des raies colorées sur fond noir', 'des raies noires sur fond coloré', 'un dégradé continu', 'émis par une lampe à incandescence'], r: 1, exp: 'Le gaz traversé absorbe certaines longueurs d\'onde.' },
  { q: 'Un rayon passant par le centre optique d\'une lentille…', choix: ['passe par F\'', 'n\'est pas dévié', 'ressort parallèle', 'est réfléchi'], r: 1, exp: 'C\'est l\'un des trois rayons de construction.' },
- { q: 'Une lentille de distance focale 25 cm a une vergence de…', choix: ['25 δ', '0,04 δ', '4 δ', '2,5 δ'], r: 2, exp: 'C = 1/0,25 = 4 dioptries (f\' en mètres !).' },
+ { q: 'Une lentille de distance focale 25 cm a une vergence de…', choix: ['25 δ', '0,04 δ', '4 δ', '2,5 δ'], r: 2, exp: 'C = 1/0,25 = 4 dioptries (f\' en mètres).' },
  { q: 'Pour voir net un objet proche, l\'œil…', choix: ['recule la rétine', 'augmente la distance focale du cristallin', 'diminue la distance focale du cristallin', 'ferme la pupille'], r: 2, exp: 'Accommodation : le cristallin se bombe, il devient plus convergent.' },
  { q: 'Dans le vide, la lumière se propage à…', choix: ['340 m/s', '3 × 10⁸ m/s', '3 × 10⁵ m/s', '3 × 10⁸ km/s'], r: 1, exp: '300 000 km/s = 3 × 10⁸ m/s.' },
  { q: 'Lors du passage verre → air, le rayon réfracté…', choix: ['se rapproche de la normale', 's\'éloigne de la normale', 'n\'est pas dévié', 'disparaît toujours'], r: 1, exp: 'n diminue ⟹ i₂ > i₁. Au-delà de l\'angle limite : réflexion totale.' }
@@ -424,7 +424,7 @@ pieges: ['Mesurer les angles par rapport à la surface au lieu de la normale.', 
 astuces: ['Snell-Descartes : écris la formule, remplace, isole sin i₂, puis Arcsin sur la calculatrice en mode DEGRÉS.', 'Construction d\'image : deux rayons suffisent, le troisième sert de vérification.'],
 exos: [
  { enonce: 'Un rayon arrive sur du verre (n = 1,5) depuis l\'air avec un angle d\'incidence de 60°. Calculer l\'angle de réfraction.', correction: `1,00 × sin 60° = 1,5 × sin i₂ ⟹ sin i₂ = 0,866/1,5 = 0,577 ⟹ **i₂ ≈ 35°**.
-Le rayon se rapproche de la normale (milieu plus réfringent) ✔.` },
+Le rayon se rapproche de la normale (milieu plus réfringent).` },
  { enonce: 'Un objet de 2 cm est placé à 15 cm d\'une lentille de distance focale 10 cm. Construire l\'image et donner ses caractéristiques (faire le schéma à l\'échelle).', correction: `Construction : le rayon par O non dévié, le rayon parallèle passe par F' (à 10 cm derrière). Ils se coupent à **30 cm** de la lentille.
 Image **réelle, renversée, agrandie** : A'B' = 4 cm, γ = −2.` }
 ]},
@@ -463,7 +463,7 @@ notions: [
  { terme: 'Thermistance CTN', def: 'Résistance qui diminue quand la température augmente.' }
 ],
 quiz: [
- { q: 'Une résistance de 220 Ω est traversée par 20 mA. Tension ?', choix: ['4,4 V', '11 V', '4 400 V', '0,09 V'], r: 0, exp: 'U = 220 × 0,020 = 4,4 V. Convertir les mA !' },
+ { q: 'Une résistance de 220 Ω est traversée par 20 mA. Tension ?', choix: ['4,4 V', '11 V', '4 400 V', '0,09 V'], r: 0, exp: 'U = 220 × 0,020 = 4,4 V. Convertir les mA.' },
  { q: 'Un ampèremètre se branche…', choix: ['en dérivation', 'en série', 'aux bornes du générateur', 'n\'importe comment'], r: 1, exp: 'Il doit être traversé par le courant à mesurer.' },
  { q: 'La caractéristique d\'un conducteur ohmique est…', choix: ['une parabole', 'une droite passant par l\'origine', 'une droite ne passant pas par l\'origine', 'une courbe quelconque'], r: 1, exp: 'U proportionnelle à I.' },
  { q: 'Dans un circuit en dérivation, I = 0,5 A dans la branche principale et I₁ = 0,2 A. I₂ ?', choix: ['0,7 A', '0,3 A', '0,2 A', '0,1 A'], r: 1, exp: 'Loi des nœuds : 0,5 − 0,2 = 0,3 A.' },
@@ -473,6 +473,6 @@ pieges: ['Oublier de convertir mA en A dans la loi d\'Ohm.', 'Brancher un ampèr
 astuces: ['Triangle U / (R × I) : cache la grandeur cherchée, le reste donne la formule.', 'Un graphique : regarde toujours ce qu\'il y a en abscisse et en ordonnée avant de calculer une pente.'],
 exos: [
  { enonce: 'Un générateur 9 V alimente deux résistances en série R₁ = 100 Ω et R₂ = 200 Ω. Intensité et tension aux bornes de chaque résistance ?', correction: `R_eq = 300 Ω. I = U/R_eq = 9/300 = **0,03 A = 30 mA**.
-U₁ = 100 × 0,03 = **3 V** ; U₂ = 200 × 0,03 = **6 V**. Vérif : 3 + 6 = 9 V ✔ (loi des mailles).` }
+U₁ = 100 × 0,03 = **3 V** ; U₂ = 200 × 0,03 = **6 V**. Vérif : 3 + 6 = 9 V (loi des mailles).` }
 ]}
 ]});

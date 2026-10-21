@@ -1,12 +1,12 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'svt', nom: 'SVT', emoji: '🧬', couleur: '#10b981',
-desc: "Trois thèmes : la Terre, la vie et l'organisation du vivant ; enjeux contemporains de la planète ; corps humain et santé. En SVT on te note surtout sur la capacité à exploiter des documents et à argumenter avec le vocabulaire exact.",
+id: 'svt', nom: 'SVT', couleur: '#10b981',
+desc: "Trois thèmes : la Terre, la vie et l'organisation du vivant ; enjeux contemporains de la planète ; corps humain et santé. Les évaluations portent sur l'exploitation de documents et l'argumentation avec le vocabulaire exact.",
 ressources: [
- { nom: 'Lumni SVT 2nde', url: 'https://www.lumni.fr/lycee/seconde/svt', ico: '📺', desc: 'Vidéos et fiches conformes au programme.' },
- { nom: 'SVT Lycée (YouTube, cours en vidéo)', url: 'https://www.youtube.com/results?search_query=svt+seconde+cours', ico: '🎥', desc: 'Cherche le chapitre + « 2nde » : de nombreux profs publient des cours clairs.' },
- { nom: 'Kartable SVT 2nde', url: 'https://www.kartable.fr/seconde/svt', ico: '📚', desc: 'Fiches et QCM.' },
- { nom: 'Programme officiel SVT', url: 'https://eduscol.education.fr/1697/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt', ico: '📜', desc: 'Les attendus exacts.' }
+ { nom: 'Lumni SVT 2nde', url: 'https://www.lumni.fr/lycee/seconde/svt', desc: 'Vidéos et fiches conformes au programme.' },
+ { nom: 'SVT Lycée (YouTube, cours en vidéo)', url: 'https://www.youtube.com/results?search_query=svt+seconde+cours', desc: 'Cherche le chapitre + « 2nde » : de nombreux profs publient des cours clairs.' },
+ { nom: 'Kartable SVT 2nde', url: 'https://www.kartable.fr/seconde/svt', desc: 'Fiches et QCM.' },
+ { nom: 'Programme officiel SVT', url: 'https://eduscol.education.fr/1697/programmes-et-ressources-en-sciences-de-la-vie-et-de-la-terre-voie-gt', desc: 'Les attendus exacts.' }
 ],
 chapitres: [
 { id: 'svt-cellule', theme: 'La Terre, la vie et l\'organisation du vivant', titre: 'L\'organisation fonctionnelle du vivant : cellule, ADN, métabolisme', duree: 35,
@@ -26,7 +26,7 @@ L'ADN est **universel** : le code génétique est le même chez tous les êtres 
 Le **métabolisme** = ensemble des réactions chimiques d'une cellule. Il dépend de l'**équipement enzymatique** (donc du génome) et de l'**environnement** (nutriments, lumière).
 - **Autotrophes** (végétaux chlorophylliens) : fabriquent leur matière organique à partir de matière minérale (CO₂, eau, sels) grâce à la lumière : **photosynthèse** dans les chloroplastes. CO₂ + H₂O + lumière → glucose + O₂.
 - **Hétérotrophes** (animaux, champignons, la plupart des bactéries) : prélèvent de la matière organique.
-- **Respiration cellulaire** (dans les mitochondries) : glucose + O₂ → CO₂ + H₂O + énergie. Chez les végétaux aussi, jour et nuit !
+- **Respiration cellulaire** (dans les mitochondries) : glucose + O₂ → CO₂ + H₂O + énergie. Chez les végétaux aussi, jour et nuit.
 - **Fermentation** : dégradation du glucose sans O₂ (levures : alcool + CO₂).
 ! Les végétaux font photosynthèse (le jour) ET respiration (en permanence). Erreur classique en contrôle.`}
 ],

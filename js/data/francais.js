@@ -1,13 +1,13 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'francais', nom: 'Français', emoji: '📖', couleur: '#ec4899',
-desc: "Quatre objets d'étude (poésie, littérature d'idées, roman, théâtre) + grammaire + méthodes du commentaire et de la dissertation. Le français en 2nde prépare l'EAF de 1re : apprends les mouvements, les figures de style et la méthode dès maintenant.",
+id: 'francais', nom: 'Français', couleur: '#ec4899',
+desc: "Quatre objets d'étude (poésie, littérature d'idées, roman, théâtre), la grammaire, et les méthodes du commentaire et de la dissertation, qui préparent l'épreuve anticipée de 1re.",
 ressources: [
- { nom: 'Lumni Français 2nde', url: 'https://www.lumni.fr/lycee/seconde/francais', ico: '📺', desc: 'Méthode et œuvres.' },
- { nom: 'Mediaclasse (YouTube)', url: 'https://www.youtube.com/@Mediaclasse', ico: '🎥', desc: 'Analyses d\'œuvres et méthode du commentaire, très clair.' },
- { nom: 'Études littéraires', url: 'https://www.etudes-litteraires.com/', ico: '📚', desc: 'Figures de style, mouvements, méthodologie.' },
- { nom: 'Projet Voltaire', url: 'https://www.projet-voltaire.fr/', ico: '✍️', desc: 'Orthographe et grammaire : exercices d\'entraînement.' },
- { nom: 'Gallica (BnF)', url: 'https://gallica.bnf.fr/', ico: '🏛️', desc: 'Les textes originaux, gratuits.' }
+ { nom: 'Lumni Français 2nde', url: 'https://www.lumni.fr/lycee/seconde/francais', desc: 'Méthode et œuvres.' },
+ { nom: 'Mediaclasse (YouTube)', url: 'https://www.youtube.com/@Mediaclasse', desc: 'Analyses d\'œuvres et méthode du commentaire, très clair.' },
+ { nom: 'Études littéraires', url: 'https://www.etudes-litteraires.com/', desc: 'Figures de style, mouvements, méthodologie.' },
+ { nom: 'Projet Voltaire', url: 'https://www.projet-voltaire.fr/', desc: 'Orthographe et grammaire : exercices d\'entraînement.' },
+ { nom: 'Gallica (BnF)', url: 'https://gallica.bnf.fr/', desc: 'Les textes originaux, gratuits.' }
 ],
 chapitres: [
 { id: 'f-figures', theme: 'Outils d\'analyse', titre: 'Figures de style et procédés d\'écriture', duree: 30,

@@ -1,13 +1,13 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'maths', nom: 'Mathématiques', emoji: '📐', couleur: '#6366f1',
-desc: "Programme officiel 2019 : nombres et calculs, géométrie (vecteurs, droites), fonctions, statistiques et probabilités, algorithmique en Python. En 2nde, tout repose sur le calcul littéral : si tu le maîtrises, le reste suit.",
+id: 'maths', nom: 'Mathématiques', couleur: '#6366f1',
+desc: "Programme 2019 : nombres et calculs, géométrie (vecteurs, droites), fonctions, statistiques et probabilités, algorithmique en Python. Le calcul littéral est le socle de tout le reste.",
 ressources: [
- { nom: 'Maths et tiques (Yvan Monka)', url: 'https://www.maths-et-tiques.fr/index.php/cours-maths/niveau-seconde', ico: '🎥', desc: 'Cours + vidéos YouTube pour chaque chapitre de 2nde, la référence des profs.' },
- { nom: 'Khan Academy (FR)', url: 'https://fr.khanacademy.org/math', ico: '🧩', desc: 'Exercices interactifs avec correction immédiate, parfait pour le rappel actif.' },
- { nom: 'Kartable 2nde', url: 'https://www.kartable.fr/seconde/mathematiques', ico: '📚', desc: 'Fiches de cours synthétiques et exercices corrigés.' },
- { nom: 'Python en ligne (Basthon)', url: 'https://console.basthon.fr/', ico: '🐍', desc: 'Pour tester tes algorithmes sans rien installer.' },
- { nom: 'Programme officiel (BO)', url: 'https://eduscol.education.fr/1667/programmes-et-ressources-en-mathematiques-voie-gt', ico: '📜', desc: 'Le vrai programme, pour savoir exactement ce qui peut tomber.' }
+ { nom: 'Maths et tiques (Yvan Monka)', url: 'https://www.maths-et-tiques.fr/index.php/cours-maths/niveau-seconde', desc: 'Cours + vidéos YouTube pour chaque chapitre de 2nde, la référence des profs.' },
+ { nom: 'Khan Academy (FR)', url: 'https://fr.khanacademy.org/math', desc: 'Exercices interactifs avec correction immédiate, parfait pour le rappel actif.' },
+ { nom: 'Kartable 2nde', url: 'https://www.kartable.fr/seconde/mathematiques', desc: 'Fiches de cours synthétiques et exercices corrigés.' },
+ { nom: 'Python en ligne (Basthon)', url: 'https://console.basthon.fr/', desc: 'Pour tester tes algorithmes sans rien installer.' },
+ { nom: 'Programme officiel (BO)', url: 'https://eduscol.education.fr/1667/programmes-et-ressources-en-mathematiques-voie-gt', desc: 'Le vrai programme, pour savoir exactement ce qui peut tomber.' }
 ],
 chapitres: [
 /* ---------------- NOMBRES ET CALCULS ---------------- */
@@ -64,7 +64,7 @@ quiz: [
  { q: '1/3 est-il décimal ?', choix: ['Oui, 0,33', 'Non, son écriture décimale est infinie', 'Oui car c\'est un rationnel', 'Il n\'est ni décimal ni rationnel'], r: 1, exp: '1/3 = 0,3333… infini périodique : rationnel mais pas décimal. Le dénominateur 3 n\'est ni 2 ni 5.' },
  { q: 'La somme de deux impairs est…', choix: ['toujours impaire', 'toujours paire', 'parfois paire', 'premier'], r: 1, exp: '(2k+1)+(2p+1) = 2(k+p+1), multiple de 2.' }
 ],
-pieges: ['Écrire ]2 ; +∞] avec un crochet fermé sur l\'infini : l\'infini n\'est jamais atteint, crochet toujours ouvert.', 'Dire que 0,999… n\'est pas rationnel : il vaut 1 ! Et π ≈ 3,14 n\'est pas une fraction, π est irrationnel.', 'Oublier que 1 n\'est pas premier et que 2 est premier.'],
+pieges: ['Écrire ]2 ; +∞] avec un crochet fermé sur l\'infini : l\'infini n\'est jamais atteint, crochet toujours ouvert.', 'Dire que 0,999… n\'est pas rationnel : il vaut 1. Et π ≈ 3,14 n\'est pas une fraction, π est irrationnel.', 'Oublier que 1 n\'est pas premier et que 2 est premier.'],
 astuces: ['Pour simplifier une fraction, décompose numérateur et dénominateur en facteurs premiers et barre les facteurs communs.', 'Pour résoudre |x − a| ≤ r, pense « intervalle centré en a de rayon r ».'],
 exos: [
  { enonce: 'Montrer que le produit de deux entiers impairs est impair.', correction: `Soient a = 2k + 1 et b = 2p + 1.
@@ -141,7 +141,7 @@ Une équation est une égalité avec une inconnue. On garde l'égalité en faisa
 - **Premier degré** : 3x − 7 = 2x + 5 ⟹ 3x − 2x = 5 + 7 ⟹ x = 12.
 - **Produit nul** : (x − 1)(2x + 6) = 0 ⟹ x = 1 ou x = −3.
 - **x² = a** : si a > 0, deux solutions x = √a ou x = −√a ; si a = 0, x = 0 ; si a < 0, aucune solution.
-- **Quotient nul** : A/B = 0 ⟺ A = 0 et B ≠ 0 (valeur interdite !).
+- **Quotient nul** : A/B = 0 ⟺ A = 0 et B ≠ 0 (valeur interdite).
 ! Si l'équation a un x² et n'est pas de la forme x² = a, essaie de tout passer d'un côté et de factoriser.`},
 { titre: 'Inéquations du premier degré', texte: `
 Même méthode qu'une équation, avec **une règle en plus** :
@@ -305,7 +305,7 @@ exos: [
 y = −2x + p ; avec A : 4 = −2×(−1) + p ⟹ p = 2.
 **y = −2x + 2**.` },
  { enonce: 'Résoudre le système : 2x + y = 7 et x − y = 2.', correction: `Combinaison : en additionnant, 3x = 9 ⟹ x = 3. Puis 3 − y = 2 ⟹ y = 1.
-Vérification : 2×3 + 1 = 7 ✔. **(3 ; 1)**.` },
+Vérification : 2×3 + 1 = 7. **(3 ; 1)**.` },
  { enonce: 'Les droites d : 2x − 3y + 1 = 0 et d\' : −4x + 6y + 5 = 0 sont-elles parallèles ?', correction: `u→(3 ; 2) pour d, u'→(−6 ; −4) pour d'.
 det = 3×(−4) − 2×(−6) = −12 + 12 = 0 ⟹ colinéaires ⟹ **parallèles** (et non confondues : (0 ; 1/3) ∈ d mais pas à d').` }
 ]},
@@ -386,7 +386,7 @@ Trouver m à partir de deux valeurs : m = (f(b) − f(a))/(b − a) (**taux de v
 X −3 < 2 mais (−3)² = 9 > 2² = 4. Ne jamais « élever au carré » une inégalité sans réfléchir au signe.`},
 { titre: 'Fonction inverse f(x) = 1/x', texte: `
 - Définie sur ℝ \\ {0} = ]−∞ ; 0[ ∪ ]0 ; +∞[, **impaire**, courbe = **hyperbole** (deux branches).
-- **Décroissante** sur ]−∞ ; 0[ **et** sur ]0 ; +∞[ (mais pas sur ℝ* entier !).
+- **Décroissante** sur ]−∞ ; 0[ **et** sur ]0 ; +∞[ (mais pas sur ℝ* entier).
 - Si 0 < a < b alors 1/a > 1/b (passer à l'inverse renverse l'ordre pour des nombres de même signe).`},
 { titre: 'Racine carrée et cube', texte: `
 - f(x) = **√x** : définie sur [0 ; +∞[, **croissante**, courbe en « demi-parabole couchée » partant de O. Si 0 ≤ a < b alors √a < √b.
@@ -440,7 +440,7 @@ $ CM = 1 + t/100     (hausse)          CM = 1 − t/100     (baisse)
 +25 % ⟹ ×1,25 ; −30 % ⟹ ×0,7 ; +200 % ⟹ ×3.
 **Taux d'évolution** entre V_départ et V_arrivée :
 $ t = (V_arrivée − V_départ) / V_départ      (× 100 pour le %)
-Ex : de 80 à 100 : t = 20/80 = 0,25 = +25 %. De 100 à 80 : t = −20/100 = −20 %. Ce n'est pas symétrique !`},
+Ex : de 80 à 100 : t = 20/80 = 0,25 = +25 %. De 100 à 80 : t = −20/100 = −20 %. Ce n'est pas symétrique.`},
 { titre: 'Évolutions successives et réciproque', texte: `
 - **Évolutions successives** : on **multiplie** les coefficients. +20 % puis −20 % ⟹ 1,2 × 0,8 = 0,96 ⟹ **−4 %** au total (pas 0 %).
 - **Évolution réciproque** (pour revenir à la valeur de départ) : CM' = 1/CM. Après +25 % (×1,25), il faut ×0,8 soit −20 %.

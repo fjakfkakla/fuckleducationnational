@@ -1,12 +1,12 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'geo', nom: 'Géographie', emoji: '🌍', couleur: '#14b8a6',
-desc: "« Environnement, développement, mobilité : les défis d'un monde en transition ». Quatre thèmes : sociétés et environnements, territoires et développement, mobilités, et l'Afrique australe. La clé en géo : des exemples localisés + le vocabulaire + savoir faire un croquis.",
+id: 'geo', nom: 'Géographie', couleur: '#14b8a6',
+desc: "« Environnement, développement, mobilité : les défis d'un monde en transition ». Quatre thèmes : sociétés et environnements, territoires et développement, mobilités, Afrique australe. Les réponses attendues s'appuient sur des exemples localisés et un vocabulaire précis.",
 ressources: [
- { nom: 'Lumni Géographie 2nde', url: 'https://www.lumni.fr/lycee/seconde/geographie', ico: '📺', desc: 'Vidéos par thème, études de cas.' },
- { nom: 'Kartable Géographie 2nde', url: 'https://www.kartable.fr/seconde/geographie', ico: '📚', desc: 'Fiches, croquis et vocabulaire.' },
- { nom: 'Géoconfluences (ENS Lyon)', url: 'https://geoconfluences.ens-lyon.fr/', ico: '🗺️', desc: 'Glossaire et articles de référence pour les études de cas (niveau élevé mais fiable).' },
- { nom: 'Our World in Data', url: 'https://ourworldindata.org/', ico: '📊', desc: 'Les chiffres à jour (IDH, population, migrations) pour illustrer tes réponses.' }
+ { nom: 'Lumni Géographie 2nde', url: 'https://www.lumni.fr/lycee/seconde/geographie', desc: 'Vidéos par thème, études de cas.' },
+ { nom: 'Kartable Géographie 2nde', url: 'https://www.kartable.fr/seconde/geographie', desc: 'Fiches, croquis et vocabulaire.' },
+ { nom: 'Géoconfluences (ENS Lyon)', url: 'https://geoconfluences.ens-lyon.fr/', desc: 'Glossaire et articles de référence pour les études de cas (niveau élevé mais fiable).' },
+ { nom: 'Our World in Data', url: 'https://ourworldindata.org/', desc: 'Les chiffres à jour (IDH, population, migrations) pour illustrer tes réponses.' }
 ],
 chapitres: [
 { id: 'g-environnement', theme: 'Sociétés et environnements : des équilibres fragiles', titre: 'Ressources, risques et changement climatique', duree: 30,

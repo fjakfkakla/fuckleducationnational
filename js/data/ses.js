@@ -1,12 +1,12 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'ses', nom: 'SES', emoji: '💶', couleur: '#8b5cf6',
-desc: "Sciences économiques et sociales : économie (production, marché, revenus), sociologie (socialisation, liens sociaux), science politique (participation). Le programme de 2nde pose les bases et le vocabulaire ; tout se joue sur la précision des définitions et la lecture des documents chiffrés.",
+id: 'ses', nom: 'SES', couleur: '#8b5cf6',
+desc: "Économie (production, marché), sociologie (socialisation, liens sociaux), science politique (participation). L'année pose le vocabulaire ; les évaluations portent sur la précision des définitions et la lecture de documents chiffrés.",
 ressources: [
- { nom: 'Melchior', url: 'https://www.melchior.fr/', ico: '📚', desc: 'Le site de référence des profs de SES : cours, exercices, actualités.' },
- { nom: 'Lumni SES 2nde', url: 'https://www.lumni.fr/lycee/seconde/ses', ico: '📺', desc: 'Vidéos par chapitre.' },
- { nom: 'INSEE', url: 'https://www.insee.fr/', ico: '📊', desc: 'Les vrais chiffres (emploi, revenus, population) pour illustrer.' },
- { nom: 'Dessine-moi l\'éco (YouTube)', url: 'https://www.youtube.com/@Dessinemoileco', ico: '🎥', desc: 'Notions économiques en 3 minutes.' }
+ { nom: 'Melchior', url: 'https://www.melchior.fr/', desc: 'Le site de référence des profs de SES : cours, exercices, actualités.' },
+ { nom: 'Lumni SES 2nde', url: 'https://www.lumni.fr/lycee/seconde/ses', desc: 'Vidéos par chapitre.' },
+ { nom: 'INSEE', url: 'https://www.insee.fr/', desc: 'Les vrais chiffres (emploi, revenus, population) pour illustrer.' },
+ { nom: 'Dessine-moi l\'éco (YouTube)', url: 'https://www.youtube.com/@Dessinemoileco', desc: 'Notions économiques en 3 minutes.' }
 ],
 chapitres: [
 { id: 'ses-raisonner', theme: 'Science économique', titre: 'Comment raisonnent économistes, sociologues et politistes ?', duree: 20,

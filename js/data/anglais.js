@@ -1,19 +1,19 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'anglais', nom: 'Anglais', emoji: '🇬🇧', couleur: '#ef4444',
-desc: "En 2nde, l'objectif est le niveau B1 : comprendre, parler et écrire sur des sujets courants. Ce qui rapporte le plus : maîtriser les temps, les modaux, les connecteurs, et 300 mots de vocabulaire bien choisis. L'anglais s'apprend par exposition quotidienne : 15 min par jour de séries en VO sous-titrées anglais > 2 h le dimanche.",
+id: 'anglais', nom: 'Anglais', couleur: '#ef4444',
+desc: "Objectif de fin de 2nde : le niveau B1. Les points qui comptent le plus : les temps, les modaux, les connecteurs et un vocabulaire de base solide. L'exposition régulière (séries en version originale, podcasts) fait la différence à l'oral.",
 ressources: [
- { nom: 'BBC Learning English', url: 'https://www.bbc.co.uk/learningenglish', ico: '📻', desc: 'Grammaire, vocabulaire, audio authentique, gratuit.' },
- { nom: 'Anki + decks anglais', url: 'https://apps.ankiweb.net/', ico: '🃏', desc: 'La meilleure appli de répétition espacée pour le vocabulaire.' },
- { nom: 'YouGlish', url: 'https://youglish.com/', ico: '🔊', desc: 'Entends n\'importe quel mot prononcé dans de vraies vidéos.' },
- { nom: 'Language Reactor', url: 'https://www.languagereactor.com/', ico: '🎬', desc: 'Extension pour regarder Netflix/YouTube avec double sous-titres.' },
- { nom: 'Lumni Anglais 2nde', url: 'https://www.lumni.fr/lycee/seconde/anglais', ico: '📺', desc: 'Les axes culturels du programme.' }
+ { nom: 'BBC Learning English', url: 'https://www.bbc.co.uk/learningenglish', desc: 'Grammaire, vocabulaire, audio authentique, gratuit.' },
+ { nom: 'Anki + decks anglais', url: 'https://apps.ankiweb.net/', desc: 'La meilleure appli de répétition espacée pour le vocabulaire.' },
+ { nom: 'YouGlish', url: 'https://youglish.com/', desc: 'Entends n\'importe quel mot prononcé dans de vraies vidéos.' },
+ { nom: 'Language Reactor', url: 'https://www.languagereactor.com/', desc: 'Extension pour regarder Netflix/YouTube avec double sous-titres.' },
+ { nom: 'Lumni Anglais 2nde', url: 'https://www.lumni.fr/lycee/seconde/anglais', desc: 'Les axes culturels du programme.' }
 ],
 chapitres: [
 { id: 'en-temps', theme: 'Grammaire', titre: 'Les temps : present, past, present perfect, future', duree: 35,
 cours: [
 { titre: 'Present simple vs present continuous (BE + -ing)', texte: `
-- **Present simple** : habitudes, vérités générales, goûts. *I play football on Saturdays. Water boils at 100 °C.* ⚠ **-s à la 3e personne** : *she plays*. Négation/question avec **do/does** : *She doesn't play. Does she play?*
+- **Present simple** : habitudes, vérités générales, goûts. *I play football on Saturdays. Water boils at 100 °C.* attention au **-s à la 3e personne** : *she plays*. Négation/question avec **do/does** : *She doesn't play. Does she play?*
 - **Present continuous** : action en cours, temporaire, ou projet proche. *I'm playing right now. She's working in London this month. We're leaving tomorrow.*
 Adverbes : always, usually, often, never (simple) / now, at the moment, today (continuous).
 X Verbes d'état jamais en -ing : *know, like, want, believe, understand, need*. « I'm knowing » n'existe pas.`},
@@ -159,7 +159,7 @@ quiz: [
  { q: '« To conclude » se place…', choix: ['au début', 'au milieu', 'à la fin', 'nulle part'], r: 2, exp: 'Connecteur de conclusion.' }
 ],
 pieges: ['Traduire mot à mot : « I am agree » (⟹ I agree), « I have 15 years » (⟹ I am 15).', 'Oublier le sujet : « Is important » ⟹ « It is important ».'],
-astuces: ['Apprends 10 connecteurs par cœur et place-les systématiquement : ça structure et ça impressionne.', 'Tiens un carnet de 5 mots nouveaux par jour rencontrés dans une série ou une chanson.'],
+astuces: ['Apprends 10 connecteurs par cœur et place-les systématiquement : cela structure la copie.', 'Tiens un carnet de 5 mots nouveaux par jour rencontrés dans une série ou une chanson.'],
 exos: [
  { enonce: 'Écrire 80 mots : « Should teenagers spend less time on social media? Give your opinion. »', correction: `Exemple : In my opinion, teenagers should spend less time on social media. **First of all**, social networks are addictive: many of us check our phones dozens of times a day. **Moreover**, they can damage self-esteem because people compare themselves to perfect pictures. **However**, social media can be useful to stay in touch with friends and to learn new things. **To conclude**, the problem is not social media itself but the time we waste on it; limiting it to one hour a day seems sensible. (90 words)` }
 ]}

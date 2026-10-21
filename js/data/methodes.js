@@ -1,59 +1,50 @@
 window.METHODES = [
-{ titre: "La vérité sur « apprendre 1000× plus vite »", texte: `
-Personne n'apprend 1000× plus vite. Par contre, la plupart des élèves révisent de façon **très inefficace** (relire, surligner, recopier). En changeant de méthode, tu peux retenir **2 à 3× plus** pour le même temps, et surtout retenir **des semaines** au lieu de 2 jours. Sur une année, c'est ça qui fait la différence entre quelqu'un qui galère la veille du contrôle et quelqu'un qui a déjà tout en tête.
+{ titre: "Ce qui ne fonctionne pas", texte: `
+Relire le cours, le surligner ou le recopier donne une impression de familiarité, pas une mémoire durable. Dans la synthèse de Dunlosky et ses collègues (2013), qui compare dix techniques d'étude, ces trois méthodes sont classées parmi les moins utiles. Réviser en une seule longue séance la veille fonctionne pour le lendemain, puis l'essentiel s'efface en quelques jours.`},
+{ titre: "Ce qui fonctionne", texte: `
+## Se tester plutôt que relire
+Roediger et Karpicke (2006) ont comparé des élèves qui relisaient un texte et d'autres qui tentaient de le restituer de mémoire. Une semaine plus tard, le second groupe retenait nettement plus, alors qu'il avait l'impression d'avoir moins appris. C'est le principe des cartes et des quiz de ce site : l'effort de rappel renforce la mémoire, la relecture non.
 
-## Ce qui ne marche PAS (prouvé par la recherche)
-- **Relire le cours** : tu as une impression de familiarité, pas de la mémoire. Dunlosky et al. (2013) classent la relecture et le surlignage en « faible utilité ».
-- **Recopier au propre** : c'est de la calligraphie, pas de l'apprentissage.
-- **Réviser 4 heures d'un coup la veille** : ça marche pour le lendemain, puis tout s'efface (courbe de l'oubli d'Ebbinghaus).
-- **Écouter de la musique avec des paroles** / avoir le téléphone à côté : chaque notification coûte plusieurs minutes de reconcentration.`},
-{ titre: "Ce qui marche vraiment (et que l'appli impose)", texte: `
-## 1. Le rappel actif (retrieval practice)
-Se **tester** plutôt que relire. Roediger & Karpicke (2006) : les élèves qui se testaient retenaient ~**50 % de plus** une semaine après que ceux qui relisaient, alors qu'ils avaient l'impression d'avoir moins appris. C'est pour ça que les flashcards et les quiz sont au cœur de l'appli.
-! Règle : après avoir lu un cours une fois, **ferme-le** et essaie de tout réciter / réécrire. Ce que tu n'arrives pas à sortir, c'est ce qu'il faut retravailler.
+## Espacer les révisions
+Revoir une notion peu avant de l'oublier, à intervalles croissants (le lendemain, trois jours après, une semaine, deux semaines, un mois), retient bien mieux que la revoir plusieurs fois le même jour (Cepeda et al., 2006). L'algorithme des cartes calcule ces intervalles ; une courte séance quotidienne suffit.
 
-## 2. La répétition espacée
-Revoir une notion **juste avant de l'oublier** : J+1, J+3, J+7, J+15, J+30… Chaque rappel réussi allonge l'intervalle. L'algorithme des flashcards (SM-2, celui d'Anki) fait ce calcul pour toi : va sur « Révision du jour » **tous les jours, 10 minutes**. 10 min par jour battent 2 h le dimanche.
+## Mélanger les chapitres
+Enchaîner des exercices de chapitres différents est plus difficile sur le moment, mais apprend à reconnaître quelle méthode s'applique, ce qu'un contrôle demande. La révision du jour mélange les matières pour cette raison.
 
-## 3. L'entremêlement (interleaving)
-Mélanger les chapitres et les matières dans une session, au lieu de faire 50 exercices identiques à la suite. C'est plus dur sur le moment, mais ça apprend à **reconnaître quel outil utiliser**, ce qu'un contrôle exige. La révision du jour mélange tout volontairement.
+## Expliquer avec ses mots
+Rédiger une explication du chapitre sans le cours sous les yeux fait apparaître précisément ce qui n'est pas compris. L'onglet Expliquer de chaque chapitre sert à cela.
 
-## 4. La technique de Feynman
-Explique le chapitre **avec tes mots**, comme à un enfant de 10 ans, sans regarder. Là où tu bafouilles ou tu utilises du jargon sans savoir le définir, tu ne comprends pas vraiment. Retourne au cours, puis réexplique. Onglet « Explique-le » dans chaque chapitre.
+## Chercher le pourquoi
+Relier une notion à une raison ou à une notion déjà connue (pourquoi la fonction carré est-elle décroissante sur les négatifs ?) la rend plus facile à retrouver qu'une définition apprise isolément.
 
-## 5. L'élaboration : poser « pourquoi ? »
-Ne pas apprendre « la Terre tourne en 365 jours » mais « pourquoi y a-t-il des saisons ? ». Relier une notion nouvelle à quelque chose que tu connais déjà. Les cours de l'appli donnent les « pourquoi », pas seulement les définitions.
+## Faire les exercices seul, puis corriger
+Lire un corrigé en le trouvant évident n'apprend rien. Faire l'exercice sur papier, puis comparer, et noter ses erreurs dans un carnet, oui.
 
-## 6. Les exercices avec correction immédiate
-En maths / physique, comprendre un corrigé ne sert à rien si tu ne refais pas **seul** l'exercice ensuite. Fais-le sur papier, cache le corrigé, compare. Les erreurs sont ce qu'il y a de plus utile : note-les dans un « carnet d'erreurs ».
+## Dormir
+La consolidation des souvenirs a lieu pendant le sommeil. Une courte révision avant de dormir suivie d'une nuit complète est plus efficace qu'une révision tardive qui raccourcit la nuit.`},
+{ titre: "Organisation", texte: `
+## Chaque jour, 15 à 25 minutes
+- Révision du jour : toutes les cartes dues.
+- Le chapitre vu en classe le jour même : lecture du cours, puis quiz. Le premier rappel, le soir même, est celui qui rapporte le plus.
+- Téléphone dans une autre pièce pendant la séance.
 
-## 7. Le sommeil
-La mémoire se consolide pendant le sommeil profond. Réviser jusqu'à 2 h du matin détruit une partie de ce que tu as appris. Réviser 20 min **juste avant de dormir**, puis dormir 8 h, est une des meilleures stratégies connues.`},
-{ titre: "Plan concret : ta routine", texte: `
-## Chaque jour (15–25 min)
-- Ouvre **Révision du jour** : fais toutes les cartes dues (10 min).
-- Lance un **Pomodoro** (25 min focus / 5 min pause) sur le chapitre vu en classe le jour même : lis le cours ici, puis quiz.
-- Téléphone dans une autre pièce. Vraiment.
+## Chaque semaine
+- Page Progression : refaire le quiz des chapitres les plus faibles.
+- Un chapitre expliqué par écrit (onglet Expliquer).
+- Deux ou trois exercices sur papier.
 
-## Chaque semaine (1 h, le week-end)
-- Onglet **Progrès** : regarde les chapitres les plus faibles et refais leur quiz.
-- Choisis 1 chapitre et fais **Feynman** dessus à l'écrit.
-- Fais 2–3 exercices types sur papier (onglet Exos).
+## Avant un contrôle
+- Une semaine avant : relire les cours concernés, lancer les cartes.
+- Trois à cinq jours avant : quiz et exercices, carnet d'erreurs.
+- La veille : cartes et carnet d'erreurs seulement, trente minutes, puis dormir.
+Un chapitre jamais vu ne se découvre pas la veille. Dans ce cas, se limiter aux définitions et à un exercice type par notion.
 
-## Avant un contrôle (J-7 → J-1)
-- J-7 : lis les cours des chapitres concernés, lance les flashcards.
-- J-5, J-3 : quiz + exercices, carnet d'erreurs.
-- J-1 : seulement révision des cartes et du carnet d'erreurs, 30 min, puis **dormir**.
-X Ne découvre jamais un chapitre la veille. Si c'est le cas, priorise : notions (définitions) + 1 exo type par notion, et tant pis pour le reste.
-
-## Pour aller plus vite en classe
-- Prends des notes en **questions** (marge gauche : la question, droite : la réponse). Tu auras tes flashcards toutes faites.
-- Le soir même, 5 min : relis tes notes en te posant les questions. Le premier rappel à J+0 est celui qui rapporte le plus.
-- Demande toujours « à quoi ça sert / dans quel exercice ça tombe ? » : la mémoire aime l'utilité.`},
-{ titre: "Comment utiliser cette appli", texte: `
-- **Chercher** (Ctrl K) : tape un mot (« vecteur », « Louis XIV », « ADN ») pour tomber direct sur la notion ou le chapitre.
-- Dans un chapitre : **Cours** (lecture rapide, 10 min max) → **Flashcards** (rappel actif) → **Quiz** (vérification) → **Explique-le** (Feynman) → **Exos & pièges** (entraînement papier).
-- **Révision du jour** : l'algorithme te montre ce qui doit être revu. Note honnêtement : « Raté » fait revenir la carte demain, « Facile » l'éloigne de plusieurs semaines.
-- Les XP et la série 🔥 sont là pour la régularité, pas pour la frime : viser une série de 30 jours est le meilleur objectif possible.
-- Tout est sauvegardé dans ton navigateur (pas de compte). Si tu changes d'appareil, ta progression ne suit pas.`}
+## En classe
+Prendre des notes sous forme de questions (la question dans la marge, la réponse en face) : les cartes sont prêtes en sortant du cours.`},
+{ titre: "Utilisation du site", texte: `
+- Recherche (Ctrl K) : un mot suffit pour atteindre une notion ou un chapitre.
+- Dans un chapitre, l'ordre conseillé est Cours, Cartes, Quiz, Expliquer, Exercices.
+- Révision du jour : seules les cartes dues sont proposées. Noter honnêtement : une carte notée « facile » ne reviendra pas avant plusieurs semaines.
+- Clavier dans les cartes : Espace retourne la carte, les touches 1 à 4 la notent.
+- La progression est enregistrée dans le navigateur, sans compte. Elle ne suit pas d'un appareil à l'autre.`}
 ];

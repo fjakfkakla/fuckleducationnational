@@ -1,11 +1,11 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'emc', nom: 'EMC', emoji: '⚖️', couleur: '#f97316',
-desc: "Enseignement moral et civique de 2nde : « La liberté, les libertés ». Un seul thème, souvent évalué par un exposé, un débat ou un dossier. Les notions clés et les textes de référence ci-dessous couvrent l'essentiel.",
+id: 'emc', nom: 'EMC', couleur: '#f97316',
+desc: "Thème unique de l'année : « La liberté, les libertés ». Évaluation le plus souvent par exposé, débat ou dossier.",
 ressources: [
- { nom: 'Lumni EMC 2nde', url: 'https://www.lumni.fr/lycee/seconde/emc', ico: '📺', desc: 'Vidéos sur les libertés.' },
- { nom: 'Vie publique', url: 'https://www.vie-publique.fr/', ico: '🏛️', desc: 'Fiches officielles sur les institutions et les droits.' },
- { nom: 'Légifrance', url: 'https://www.legifrance.gouv.fr/', ico: '📜', desc: 'Les textes de loi originaux (DDHC, Constitution).' }
+ { nom: 'Lumni EMC 2nde', url: 'https://www.lumni.fr/lycee/seconde/emc', desc: 'Vidéos sur les libertés.' },
+ { nom: 'Vie publique', url: 'https://www.vie-publique.fr/', desc: 'Fiches officielles sur les institutions et les droits.' },
+ { nom: 'Légifrance', url: 'https://www.legifrance.gouv.fr/', desc: 'Les textes de loi originaux (DDHC, Constitution).' }
 ],
 chapitres: [
 { id: 'emc-libertes', theme: 'La liberté, les libertés', titre: 'Les libertés : fondements, garanties et limites', duree: 25,

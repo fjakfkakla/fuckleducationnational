@@ -1,11 +1,11 @@
 window.PROGRAMME = window.PROGRAMME || [];
 window.PROGRAMME.push({
-id: 'snt', nom: 'SNT', emoji: '💻', couleur: '#64748b',
-desc: "Sciences numériques et technologie : internet, web, réseaux sociaux, données structurées, localisation, informatique embarquée, photo numérique, + Python. Matière de culture générale numérique : facile à réviser, les notions sont concrètes.",
+id: 'snt', nom: 'SNT', couleur: '#64748b',
+desc: "Internet, Web, réseaux sociaux, données structurées, localisation, informatique embarquée, photographie numérique, avec un peu de Python.",
 ressources: [
- { nom: 'Lumni SNT', url: 'https://www.lumni.fr/lycee/seconde/snt', ico: '📺', desc: 'Vidéos sur les 7 thèmes.' },
- { nom: 'Basthon (Python en ligne)', url: 'https://console.basthon.fr/', ico: '🐍', desc: 'Pour tester le code.' },
- { nom: 'Pixees (Inria)', url: 'https://pixees.fr/', ico: '🎓', desc: 'Ressources officielles de référence pour SNT/NSI.' }
+ { nom: 'Lumni SNT', url: 'https://www.lumni.fr/lycee/seconde/snt', desc: 'Vidéos sur les 7 thèmes.' },
+ { nom: 'Basthon (Python en ligne)', url: 'https://console.basthon.fr/', desc: 'Pour tester le code.' },
+ { nom: 'Pixees (Inria)', url: 'https://pixees.fr/', desc: 'Ressources officielles de référence pour SNT/NSI.' }
 ],
 chapitres: [
 { id: 'snt-internet', theme: 'Internet et le Web', titre: 'Internet : protocoles, adresses IP, DNS', duree: 25,
