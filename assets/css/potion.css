@@ -121,6 +121,7 @@ h1,h2,h3,.ft{font-family:var(--ft);font-weight:800;letter-spacing:-.035em;line-h
 .coin.xs{width:20px;height:20px;box-shadow:0 0 0 2px var(--card)}
 .coin.xs::before{display:none}
 .coin.sol{background:linear-gradient(45deg,#8e3dff 0%,#7a52f2 26%,#4a86dc 55%,#1db2ad 80%,#0cc68a 100%)}
+.coin.sol svg{width:58%;height:58%}
 .coin.btc{background:linear-gradient(150deg,#ffb347 0%,#f7931a 50%,#c96f0a 100%)}
 .coin.eth{background:linear-gradient(150deg,#8a9bff 0%,#627eea 50%,#3c55c9 100%)}
 .coin.stk{background:linear-gradient(150deg,#2dd4bf 0%,#0d9488 55%,#0f766e 100%)}
