@@ -31,6 +31,10 @@ Chaque chapitre comprend un cours court, les notions à connaître (qui servent 
 
 La page Méthode résume les résultats de la recherche sur les techniques de révision et propose une organisation.
 
+## Direction artistique
+
+L'interface suit la DA du dépôt `fjakfkakla/memescanner` (`DA-CLAUDE.md`) : papier et encre, une couleur par matière posée sur les pastilles, les chiffres et le bouton principal (jamais sur l'écran), titres en Bricolage Grotesque, texte en Inter, aucun emoji, un glyphe plein par matière (`js/icons.js`), la plaque à assise comme seul bouton plein, le switch à aplat glissant pour les onglets, rien au-dessus ni au-dessous d'un titre, aucune mono hors du code Python.
+
 ## Ajouter du contenu
 
 Chaque matière est un fichier dans `js/data/`. Un chapitre est un objet avec `cours` (sections), `notions` (deviennent des cartes), `quiz`, `pieges`, `astuces` et `exos`. Copier un chapitre existant et le modifier.

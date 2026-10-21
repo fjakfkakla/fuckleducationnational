@@ -4,27 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Révisions de seconde</title>
-<meta name="description" content="Fiches, cartes à répétition espacée, quiz et exercices pour tout le programme de 2nde.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<meta name="description" content="Le programme de 2nde : cours, cartes à répétition espacée, quiz et exercices.">
 <link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="app">
   <aside class="sidebar" id="sidebar">
-    <a class="brand" href="#/">Révisions de seconde</a>
+    <a class="brand" href="#/">Révisions <span>de seconde</span></a>
     <nav class="nav" id="nav"></nav>
     <div class="sidebar-foot">
-      <button class="link" id="themeBtn">Thème</button>
-      <button class="link" id="pomoBtn">Minuteur 25:00</button>
+      <button class="lnk" id="themeBtn">Thème</button>
+      <button class="lnk" id="pomoBtn">Minuteur</button>
     </div>
   </aside>
   <div class="main">
     <header class="topbar">
-      <button class="burger" id="burger" aria-label="Menu">Menu</button>
+      <button class="burger" id="burger" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
       <div class="search" id="searchWrap">
-        <input id="search" type="search" placeholder="Rechercher un chapitre ou une notion" autocomplete="off" aria-label="Recherche">
+        <svg class="search-ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <input id="search" type="search" placeholder="Chercher un chapitre, une notion" autocomplete="off" aria-label="Recherche">
         <div class="search-results" id="searchResults"></div>
       </div>
     </header>
@@ -35,9 +36,9 @@
   <div class="pomo-time" id="pomoTime">25:00</div>
   <div class="pomo-label" id="pomoLabel">Travail</div>
   <div class="pomo-actions">
-    <button class="btn" id="pomoStart">Démarrer</button>
-    <button class="link" id="pomoReset">Remettre à zéro</button>
-    <button class="link" id="pomoClose">Fermer</button>
+    <button class="plaque" id="pomoStart">Démarrer</button>
+    <button class="lnk" id="pomoReset">Remettre à zéro</button>
+    <button class="rond" id="pomoClose" aria-label="Fermer"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
   </div>
 </div>
 <div id="toast" class="toast"></div>
@@ -53,6 +54,7 @@
 <script src="js/data/anglais.js"></script>
 <script src="js/data/emc.js"></script>
 <script src="js/data/methodes.js"></script>
+<script src="js/icons.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
