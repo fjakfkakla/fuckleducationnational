@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seconde Turbo</title>
+<meta name="description" content="Révise tout le programme de 2nde ultra vite : fiches, flashcards à répétition espacée, quiz, méthode Feynman, Pomodoro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+<div id="app" class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand" onclick="location.hash='#/'">
+      <span class="brand-logo">⚡</span>
+      <div><div class="brand-name">Seconde Turbo</div><div class="brand-sub">Révise 10× plus vite</div></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar-foot">
+      <button class="btn ghost small" id="themeBtn" title="Changer de thème">🌙 Thème</button>
+      <button class="btn ghost small" id="pomoBtn" title="Pomodoro">⏱ 25:00</button>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="burger" id="burger" aria-label="Menu">☰</button>
+      <div class="search" id="searchWrap">
+        <input id="search" type="search" placeholder="Chercher un chapitre, une notion… (ex : vecteur, Louis XIV, mitose)" autocomplete="off">
+        <kbd>Ctrl K</kbd>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+      <div class="xp" id="xpBox" title="Points d'expérience">⭐ <span id="xpVal">0</span> XP</div>
+    </header>
+    <main id="view" class="view"></main>
+  </div>
+</div>
+<div id="pomo" class="pomo hidden">
+  <div class="pomo-time" id="pomoTime">25:00</div>
+  <div class="pomo-label" id="pomoLabel">Concentration</div>
+  <div class="pomo-actions">
+    <button class="btn primary" id="pomoStart">▶ Démarrer</button>
+    <button class="btn ghost" id="pomoReset">↺</button>
+    <button class="btn ghost" id="pomoClose">✕</button>
+  </div>
+</div>
+<div id="toast" class="toast"></div>
+
+<script src="js/data/maths.js"></script>
+<script src="js/data/physique.js"></script>
+<script src="js/data/svt.js"></script>
+<script src="js/data/histoire.js"></script>
+<script src="js/data/geo.js"></script>
+<script src="js/data/francais.js"></script>
+<script src="js/data/ses.js"></script>
+<script src="js/data/snt.js"></script>
+<script src="js/data/anglais.js"></script>
+<script src="js/data/emc.js"></script>
+<script src="js/data/methodes.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
