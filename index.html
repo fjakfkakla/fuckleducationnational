@@ -37,6 +37,7 @@
   <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4z"/></symbol>
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
   <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8.5" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 5.5a3.5 3.5 0 0 1 0 6M21.5 20a6.5 6.5 0 0 0-5-6.3"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18h3"/></symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2.5"/><path d="M4 7l8 6 8-6"/></symbol>
   <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><path d="M12 2.5v4M12 17.5v4M2.5 12h4M17.5 12h4"/><circle cx="12" cy="12" r="1.7" fill="currentColor"/></symbol>
   <symbol id="i-x" viewBox="0 0 24 24"><path d="M17.5 3h3.3l-7.3 8.3L22 21h-6.7l-5.2-6.8L4 21H.8l7.8-8.9L.4 3h6.9l4.7 6.2zM16.3 19.1h1.8L6.8 4.8H4.9z"/></symbol>
@@ -49,7 +50,6 @@
   <symbol id="m-pred" viewBox="0 0 24 24"><circle cx="7.5" cy="7.5" r="2.8"/><circle cx="16.5" cy="16.5" r="2.8"/><rect x="10.9" y="3" width="2.2" height="18" rx="1.1" transform="rotate(32 12 12)"/></symbol>
 </defs></svg>
 
-<i class="cur" aria-hidden="true"></i><i class="cur-ring" aria-hidden="true"></i>
 <i class="progress" id="progress" aria-hidden="true"></i>
 
 <header class="nav" id="nav">
@@ -169,7 +169,7 @@
         <div class="scene-txt">
           <span class="pi lg"><svg class="ic"><use href="#i-book"/></svg></span>
           <h3>Stay informed.</h3>
-          <p>Monday morning: the weekly market newsletter. First of the month: the macro report. You read the plan before the market opens.</p>
+          <ul class="facts"><li><span class="pi sm r"><svg class="ic"><use href="#i-mail"/></svg></span><span>Weekly newsletter, every Monday</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-book"/></svg></span><span>Macro report, every month</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-clock"/></svg></span><span>In your inbox before the open</span></li></ul>
           <div class="switch" id="rpSwitch" style="margin-top:1.1rem">
             <i class="thumb"></i>
             <button class="on" data-rp="week"><span class="pi"><svg class="ic"><use href="#i-mail"/></svg></span>Weekly</button>
@@ -193,7 +193,7 @@
         <div class="scene-txt">
           <span class="pi lg"><svg class="ic"><use href="#i-bell"/></svg></span>
           <h3>Notified in real time.</h3>
-          <p>A trade opens, hits a target or closes: the dashboard updates and your phone buzzes. You never refresh a chart to find out.</p>
+          <ul class="facts"><li><span class="pi sm r"><svg class="ic"><use href="#i-bell"/></svg></span><span>A trade opens, hits a target, closes: you know</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-dash"/></svg></span><span>The dashboard updates on its own</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-phone"/></svg></span><span>Push on your phone, nothing to refresh</span></li></ul>
         </div>
         <div class="scene-obj">
           <div class="dash" id="dash">
@@ -210,7 +210,7 @@
         <div class="scene-txt">
           <span class="pi lg"><svg class="ic"><use href="#i-bolt"/></svg></span>
           <h3>Execute in one click.</h3>
-          <p>The call comes with entry, targets and stop. You pick a size and press the button: the order leaves from the Potion platform.</p>
+          <ul class="facts"><li><span class="pi sm r"><svg class="ic"><use href="#i-target"/></svg></span><span>Entry, targets and stop in every call</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-bolt"/></svg></span><span>One click from the Potion platform</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-check"/></svg></span><span>Filled, then tracked for you</span></li></ul>
         </div>
         <div class="scene-obj">
           <div class="ticket" id="ticket">
@@ -231,7 +231,7 @@
         <div class="scene-txt">
           <span class="pi lg"><svg class="ic"><use href="#i-chat"/></svg></span>
           <h3>Be in the room.</h3>
-          <p>A call drops, the room reacts, you watch the whole move as it happens. Nothing to catch up on, nothing to chase.</p>
+          <ul class="facts"><li><span class="pi sm r"><svg class="ic"><use href="#i-users"/></svg></span><span>108,000 traders in one room</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-chat"/></svg></span><span>The move, commented as it happens</span></li><li><span class="pi sm r"><svg class="ic"><use href="#i-shield"/></svg></span><span>Nothing to catch up on, nothing to chase</span></li></ul>
         </div>
         <div class="scene-obj">
           <div class="room" id="room">
@@ -265,80 +265,66 @@
 <!-- ========== OFFER ========== -->
 <section id="pricing">
   <div class="wrap">
-    <h2 class="t2 rv">Without Potion, you chase. <em>With Potion, you're early.</em></h2>
-    <div class="of-grid">
-      <aside class="before rv" id="before">
-        <div class="hd"><b>Without Potion</b><span class="chip off">Before</span></div>
-        <div class="price">$0 <span>and no edge</span></div>
-        <div class="rows">
-          <div class="row" data-k="notify" tabindex="0"><span class="pi sm r off"><svg class="ic"><use href="#i-clock"/></svg></span><span><span class="tt"><b>Late to the trade</b><span class="chip off"><svg class="ic"><use href="#i-lock"/></svg>Alpha</span></span><span>You see the move once it is on your timeline.</span></span></div>
-          <div class="row" data-k="research" tabindex="0"><span class="pi sm r off"><svg class="ic"><use href="#i-miss"/></svg></span><span><span class="tt"><b>Missed the entry</b><span class="chip off"><svg class="ic"><use href="#i-lock"/></svg>Alpha</span></span><span>No level to buy at, so you buy the top.</span></span></div>
-          <div class="row" data-k="reports" tabindex="0"><span class="pi sm r off"><svg class="ic"><use href="#i-clip"/></svg></span><span><span class="tt"><b>No plan</b><span class="chip off"><svg class="ic"><use href="#i-lock"/></svg>Alpha</span></span><span>No targets, no stop, no size.</span><span class="bar"><i></i></span></span></div>
-          <div class="row" data-k="streams" tabindex="0"><span class="pi sm r off"><svg class="ic"><use href="#i-loop"/></svg></span><span><span class="tt"><b>Roundtripping profits</b><span class="chip off"><svg class="ic"><use href="#i-lock"/></svg>Alpha</span></span><span>Up 40%, back to zero, nobody said sell.</span></span></div>
-          <div class="row" data-k="research" tabindex="0"><span class="pi sm r off"><svg class="ic"><use href="#i-target"/></svg></span><span><span class="tt"><b>One market</b><span class="chip off"><svg class="ic"><use href="#i-lock"/></svg>Alpha</span></span><span>Memes only, from Twitter.</span><span class="mk"><span class="coin sm sol"><svg><use href="#m-sol"/></svg></span><span class="none"><svg class="ic"><use href="#i-lock"/></svg></span><span class="none"><svg class="ic"><use href="#i-lock"/></svg></span><span class="none"><svg class="ic"><use href="#i-lock"/></svg></span><span class="none"><svg class="ic"><use href="#i-lock"/></svg></span></span></span></div>
-        </div>
-      </aside>
-
-      <div class="premium rv" data-d="1" id="premium">
-        <div class="hd"><b>Potion Alpha</b><span class="chip white"><svg class="ic"><use href="#i-bars"/></svg>Bear market discount</span></div>
-        <div class="pr"><span class="was">$799</span><span class="now"><small>$</small>599<span>/year</span></span></div>
-        <div class="tiles" id="tiles">
-          <div class="tile wide" data-k="research">
-            <div class="th"><span class="pi"><svg class="ic"><use href="#i-rocket"/></svg></span>Analysis &amp; research</div>
-            <div class="big"><i>5</i> markets, one team of analysts</div>
-            <div class="chips">
-              <span class="chip"><span class="coin sol"><svg><use href="#m-sol"/></svg></span>Memes</span>
-              <span class="chip"><span class="coin btc"><svg><use href="#m-btc"/></svg></span>Crypto &amp; Futures</span>
-              <span class="chip"><span class="coin stk"><svg><use href="#m-stk"/></svg></span>Stocks &amp; Options</span>
-              <span class="chip"><span class="coin defi"><svg><use href="#m-defi"/></svg></span>DeFi</span>
-              <span class="chip"><span class="coin pred"><svg><use href="#m-pred"/></svg></span>Prediction markets</span>
-            </div>
-            <p>Ready before the pump: every call comes with the why, the entry and the targets.</p>
-          </div>
-          <div class="tile" data-k="notify">
-            <div class="th"><span class="pi"><svg class="ic"><use href="#i-dash"/></svg></span>Potion Dashboard</div>
-            <div class="big">Tracking, alerts, <i>one-click</i> execution</div>
-            <div class="chips"><span class="chip">Trade tracking</span><span class="chip">Notifications</span><span class="chip x">Trade execution</span></div>
-            <p>Notified in real time: a trade changes, your phone buzzes.</p>
-          </div>
-          <div class="tile" data-k="reports">
-            <div class="th"><span class="pi"><svg class="ic"><use href="#i-book"/></svg></span>Market reports</div>
-            <div class="big"><i>Weekly</i> newsletter, <i>monthly</i> macro</div>
-            <div class="chips"><span class="chip">Every Monday</span><span class="chip">Every month</span></div>
-            <p>Real strategies: you know the plan before the week starts.</p>
-          </div>
-          <div class="tile" data-k="streams">
-            <div class="th"><span class="pi"><svg class="ic"><use href="#i-play"/></svg></span>Streams</div>
-            <div class="big"><i>Live</i> trading &amp; education</div>
-            <div class="chips"><span class="chip">Live trading</span><span class="chip">Education</span></div>
-            <p>Gains secured: you watch the exits, not only the entries.</p>
-          </div>
-          <div class="tile" data-k="tools">
-            <div class="th"><span class="pi"><svg class="ic"><use href="#i-tools"/></svg></span>Premium tools</div>
-            <div class="big">The paid tools, <i>free</i></div>
-            <div class="chips"><span class="chip">Wallet trackers</span><span class="chip">Scanners</span><span class="chip">CT influence</span></div>
-            <p>Included with Alpha, no second subscription.</p>
-          </div>
-        </div>
-        <div class="prem-foot">
-          <a class="btn btn-white btn-lg magnet" href="https://whop.com/checkout/plan_g76wMBXD6Gzbc" target="_blank" rel="noopener">Try 14 days risk free <svg class="ic arrow"><use href="#i-arrow"/></svg></a>
-        </div>
-        <div class="guar">
-          <div class="g"><span class="pi white"><svg class="ic"><use href="#i-shield"/></svg></span><span><b>14-day refund</b><span>Not for you? Full refund, no questions.</span></span></div>
-          <div class="g"><span class="pi white"><svg class="ic"><use href="#i-vault"/></svg></span><span><b>Profit guarantee</b><span>Follow the process and don't profit: full refund.</span></span></div>
-        </div>
+    <h2 class="t2 rv">The same trade, <em>twice.</em></h2>
+    <div class="board day rv" data-d="1" id="day">
+      <div class="day-col without">
+        <div class="day-h"><span class="pi lg r off"><svg class="ic"><use href="#i-clock"/></svg></span><b>Without Potion</b><span class="day-pnl" id="dayPnlL">+0%</span></div>
+        <ol class="ev">
+          <li data-at=".10"><span class="pi md r off"><svg class="ic"><use href="#i-clock"/></svg></span><span><b>Late to the trade</b><span>$SPCE moves before the open. You are asleep.</span></span><time>07:50</time></li>
+          <li data-at=".32"><span class="pi md r off"><svg class="ic"><use href="#i-miss"/></svg></span><span><b>Missed the entry</b><span>You see it on your timeline, you buy after the move.</span></span><time>09:35</time></li>
+          <li data-at=".40"><span class="pi md r off"><svg class="ic"><use href="#i-clip"/></svg></span><span><b>No plan</b><span>No target, no stop. You hold and hope.</span></span><time>10:10</time></li>
+          <li data-at=".87"><span class="pi md r off"><svg class="ic"><use href="#i-loop"/></svg></span><span><b>Roundtripping profits</b><span>Up 40% at noon, flat by the close.</span></span><time>14:00</time></li>
+        </ol>
+      </div>
+      <div class="day-rail" id="dayRail" role="slider" aria-label="Time of day" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+        <i class="track"></i><i class="fill" id="dayFill"></i>
+        <span class="hr" style="--p:0">07:00</span><span class="hr" style="--p:.25">09:00</span><span class="hr" style="--p:.5">11:00</span><span class="hr" style="--p:.75">13:00</span><span class="hr" style="--p:1">15:00</span>
+        <b class="knob" id="dayKnob"><svg class="ic"><use href="#i-clock"/></svg></b>
+      </div>
+      <div class="day-col with">
+        <div class="day-h"><span class="pi lg r"><img src="assets/img/potion-mark.png" alt="" width="20" height="22"></span><b>With Potion</b><span class="day-pnl g" id="dayPnlR">+0%</span></div>
+        <ol class="ev">
+          <li data-at=".06"><span class="pi md r"><svg class="ic"><use href="#i-rocket"/></svg></span><span><b>Ready before the pump</b><span>Call drops: $SPCE, entry 3.24, target 5.49, stop set.</span></span><time>07:30</time></li>
+          <li data-at=".11"><span class="pi md r"><svg class="ic"><use href="#i-bolt"/></svg></span><span><b>Notified in real time</b><span>Your phone buzzes. One click, the order is in.</span></span><time>07:52</time></li>
+          <li data-at=".33"><span class="pi md r"><svg class="ic"><use href="#i-target"/></svg></span><span><b>Real strategies</b><span>First target hit. Half out, stop moved to entry.</span></span><time>09:40</time></li>
+          <li data-at=".54"><span class="pi md r green"><svg class="ic"><use href="#i-vault"/></svg></span><span><b>Gains secured</b><span>Exit at 5.49 as called. +166.97%, locked.</span></span><time>11:20</time></li>
+        </ol>
       </div>
     </div>
 
-    <div class="memes rv" id="memes">
-      <span class="coin sol xl"><svg><use href="#m-sol"/></svg></span>
-      <div>
-        <div class="hd"><b>Potion Memes</b><span class="price">$50<span>/month</span></span></div>
-        <div class="ls" style="margin-top:.7rem">
-          <span class="chip">Live memecoin calls</span><span class="chip">Wallet trackers &amp; scanners</span><span class="chip">CT influence trackers</span><span class="chip">Daily memecoin stages</span><span class="chip">Priority 24/7 support</span>
+    <div class="passes">
+      <div class="pass alpha" id="passAlpha">
+        <img class="pass-glyph" src="assets/img/potion-glyph.png" alt="" aria-hidden="true">
+        <div class="pass-top"><span class="pass-logo"><img src="assets/img/potion-mark.png" alt="" width="26" height="29">Potion Alpha</span><span class="chip white"><svg class="ic"><use href="#i-bars"/></svg>Bear market discount</span></div>
+        <div class="pass-price"><s>$799</s><b><small>$</small>599</b><span>/year</span></div>
+        <ul class="feat">
+          <li><span class="pi md white"><svg class="ic"><use href="#i-rocket"/></svg></span><span><b>Analysis &amp; research</b><span>Stocks, crypto, memes, DeFi and prediction markets</span></span><span class="mk"><i class="coin xs sol"><svg><use href="#m-sol"/></svg></i><i class="coin xs btc"><svg><use href="#m-btc"/></svg></i><i class="coin xs stk"><svg><use href="#m-stk"/></svg></i><i class="coin xs defi"><svg><use href="#m-defi"/></svg></i><i class="coin xs pred"><svg><use href="#m-pred"/></svg></i></span></li>
+          <li><span class="pi md white"><svg class="ic"><use href="#i-dash"/></svg></span><span><b>Potion Dashboard</b><span>Trade tracking, notifications, one-click execution</span></span></li>
+          <li><span class="pi md white"><svg class="ic"><use href="#i-book"/></svg></span><span><b>Weekly &amp; monthly reports</b><span>The newsletter every Monday, the macro report every month</span></span></li>
+          <li><span class="pi md white"><svg class="ic"><use href="#i-play"/></svg></span><span><b>Live trading &amp; education streams</b><span>Watch the entries and the exits, live</span></span></li>
+          <li><span class="pi md white"><svg class="ic"><use href="#i-tools"/></svg></span><span><b>Premium tools, included</b><span>Wallet trackers, scanners, CT influence trackers</span></span></li>
+        </ul>
+        <div class="pass-foot">
+          <a class="btn btn-white btn-lg magnet" href="https://whop.com/checkout/plan_g76wMBXD6Gzbc" target="_blank" rel="noopener">Try 14 days risk free <svg class="ic arrow"><use href="#i-arrow"/></svg></a>
+          <div class="guar">
+            <span class="g"><span class="pi sm r white"><svg class="ic"><use href="#i-shield"/></svg></span><span><b>14-day refund</b><span>Not for you? Full refund.</span></span></span>
+            <span class="g"><span class="pi sm r white"><svg class="ic"><use href="#i-vault"/></svg></span><span><b>Profit guarantee</b><span>Follow the process or get refunded.</span></span></span>
+          </div>
         </div>
       </div>
-      <a class="btn btn-ghost" href="https://whop.com/checkout/plan_0xmFvty2g9e47" target="_blank" rel="noopener">Join Potion Memes</a>
+
+      <div class="pass memes rv" data-d="1" id="passMemes">
+        <div class="pass-top"><span class="pass-logo"><span class="coin sol sm"><svg><use href="#m-sol"/></svg></span>Potion Memes</span></div>
+        <div class="pass-price"><b><small>$</small>50</b><span>/month</span></div>
+        <ul class="feat">
+          <li><span class="pi md r"><svg class="ic"><use href="#i-bell"/></svg></span><span><b>Live memecoin calls</b></span></li>
+          <li><span class="pi md r"><svg class="ic"><use href="#i-target"/></svg></span><span><b>Wallet trackers &amp; scanners</b></span></li>
+          <li><span class="pi md r"><svg class="ic"><use href="#i-users"/></svg></span><span><b>CT influence trackers</b></span></li>
+          <li><span class="pi md r"><svg class="ic"><use href="#i-bars"/></svg></span><span><b>Daily memecoin stages</b></span></li>
+          <li><span class="pi md r"><svg class="ic"><use href="#i-chat"/></svg></span><span><b>Priority 24/7 support</b></span></li>
+        </ul>
+        <div class="pass-foot"><a class="btn btn-ghost" href="https://whop.com/checkout/plan_0xmFvty2g9e47" target="_blank" rel="noopener">Join Potion Memes <svg class="ic arrow"><use href="#i-arrow"/></svg></a></div>
+      </div>
     </div>
   </div>
 </section>

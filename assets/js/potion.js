@@ -27,32 +27,6 @@
     io.observe(el);
   }
 
-  /* ---------- cursor ---------- */
-  if (fine && !reduced) {
-    document.body.classList.add('has-cursor');
-    var cur = $('.cur'), ring = $('.cur-ring');
-    var mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my;
-    document.addEventListener('mousemove', function (e) {
-      mx = e.clientX; my = e.clientY;
-      cur.style.transform = 'translate(' + mx + 'px,' + my + 'px) translate(-50%,-50%)';
-    });
-    (function loop() {
-      rx += (mx - rx) * .18; ry += (my - ry) * .18;
-      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px) translate(-50%,-50%)';
-      requestAnimationFrame(loop);
-    })();
-    document.addEventListener('mouseover', function (e) {
-      if (e.target.closest('a,button,[role=button],input,.rail-b,.row')) document.body.classList.add('cur-on');
-    });
-    document.addEventListener('mouseout', function (e) {
-      if (e.target.closest('a,button,[role=button],input,.rail-b,.row')) document.body.classList.remove('cur-on');
-    });
-    document.addEventListener('mousedown', function () { document.body.classList.add('cur-down'); });
-    document.addEventListener('mouseup', function () { document.body.classList.remove('cur-down'); });
-    document.documentElement.addEventListener('mouseleave', function () { cur.classList.add('hidden'); ring.classList.add('hidden'); });
-    document.documentElement.addEventListener('mouseenter', function () { cur.classList.remove('hidden'); ring.classList.remove('hidden'); });
-  }
-
   /* ---------- magnetic buttons ---------- */
   if (fine && !reduced) {
     $$('.magnet').forEach(function (b) {
@@ -378,17 +352,47 @@
     rsio.observe($('#rsBoard'));
   } else { rsVisible = true; setResult(0); }
 
-  /* ---------- offer: what is missing lights up in front ---------- */
-  var tiles = $$('.tile');
-  once($('#premium'), { rootMargin: '0px 0px -18% 0px', threshold: 0 }, function () {
-    if (G && !reduced) G.to(tiles, { opacity: 1, y: 0, duration: .7, stagger: .08, ease: 'power3.out', delay: .15 });
-    else tiles.forEach(function (t) { t.style.opacity = 1; t.style.transform = 'none'; });
-    if (G && !reduced) G.fromTo('.before .pi, .before .none', { scale: 1.5, rotate: -8 }, { scale: 1, rotate: 0, duration: .55, ease: 'back.out(2)', stagger: .07, delay: .35 });
+  /* ---------- offer: the same day, lived twice. The dRail is the clock ---------- */
+  var dRail = $('#dayRail'), fill = $('#dayFill'), knob = $('#dayKnob'), evs = $$('#day .ev li'), pnlL = $('#dayPnlL'), pnlR = $('#dayPnlR');
+  var dayP = 0, dayLead = false, dayPlayed = false;
+  function setDay(p) {
+    dayP = Math.max(0, Math.min(1, p));
+    var h = dRail.clientHeight - 84;
+    fill.style.height = (dayP * h) + 'px'; knob.style.top = (70 + dayP * h) + 'px';
+    dRail.setAttribute('aria-valuenow', Math.round(dayP * 100));
+    evs.forEach(function (li) { li.classList.toggle('on', +li.getAttribute('data-at') <= dayP); });
+    /* without: up 40% by noon, back to zero by the close */
+    var l = dayP < .32 ? 0 : dayP < .62 ? 40 * (dayP - .32) / .3 : dayP < .9 ? 40 * (1 - (dayP - .62) / .28) : 0;
+    pnlL.textContent = (l > 0 ? '+' : '') + l.toFixed(0) + '%';
+    pnlL.style.color = l > 0 ? 'var(--green2)' : l < 0 ? 'var(--red2)' : 'var(--dim)';
+    /* with: in at 07:52, +166.97% locked at 11:20 */
+    var r = dayP < .11 ? 0 : dayP < .54 ? 166.97 * (dayP - .11) / .43 : 166.97;
+    pnlR.textContent = '+' + r.toFixed(r >= 166.97 ? 2 : 0) + '%';
+  }
+  function autoDay() {
+    if (reduced) { setDay(1); return; }
+    tween(5200, function (k) { if (!dayLead) setDay(k); }, function (k) { return k; });
+  }
+  once($('#day'), { threshold: .35 }, function () { dayPlayed = true; autoDay(); });
+  once($('#passAlpha'), { rootMargin: '0px 0px -12% 0px', threshold: 0 }, function () {
+    if (G && !reduced) G.from('#passAlpha', { y: 30, opacity: 0, duration: .8, ease: 'power3.out', clearProps: 'all' });
   });
-  function hi(k, on) { tiles.forEach(function (t) { if (t.getAttribute('data-k') === k) t.classList.toggle('hi', on); }); }
-  $$('.row').forEach(function (r) {
-    var k = r.getAttribute('data-k');
-    ['mouseenter', 'focus', 'touchstart'].forEach(function (ev) { r.addEventListener(ev, function () { hi(k, true); }, { passive: true }); });
-    ['mouseleave', 'blur', 'touchend'].forEach(function (ev) { r.addEventListener(ev, function () { hi(k, false); }); });
+  function railAt(e) { var r = dRail.getBoundingClientRect(); return (e.clientY - r.top - 70) / (r.height - 84); }
+  dRail.addEventListener('pointerdown', function (e) { dayLead = true; dRail.setPointerCapture(e.pointerId); setDay(railAt(e)); });
+  dRail.addEventListener('pointermove', function (e) { if (e.buttons) setDay(railAt(e)); });
+  dRail.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowRight') { dayLead = true; setDay(dayP + .05); e.preventDefault(); }
+    if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { dayLead = true; setDay(dayP - .05); e.preventDefault(); }
   });
+  addEventListener('resize', function () { setDay(dayP); });
+  if (window.matchMedia('(max-width: 900px)').matches) { setDay(1); }
+  /* the alpha pass tilts under the mouse, like a card in the hand */
+  var pass = $('#passAlpha');
+  if (fine && !reduced) {
+    pass.addEventListener('mousemove', function (e) {
+      var r = pass.getBoundingClientRect(), px = (e.clientX - r.left) / r.width - .5, py = (e.clientY - r.top) / r.height - .5;
+      pass.style.transform = 'perspective(1200px) rotateY(' + (px * 5) + 'deg) rotateX(' + (-py * 5) + 'deg)';
+    });
+    pass.addEventListener('mouseleave', function () { pass.style.transform = ''; });
+  }
 })();
