@@ -12,7 +12,7 @@ Site de révision couvrant le programme de 2nde générale (programmes officiels
 | Histoire | 6 |
 | Géographie | 4 |
 | Français | 6 |
-| SES | 5 |
+| SES | 6 |
 | SNT | 4 |
 | Anglais | 3 |
 | EMC | 1 |
