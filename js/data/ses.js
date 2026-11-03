@@ -56,8 +56,8 @@ cours: [
 { titre: 'Le fait social et ses trois caractéristiques', texte: `
 Un **fait social** est une « manière d'agir, de penser et de sentir » qui présente trois caractéristiques :
 - **Extériorité** : il existe **en dehors** de l'individu, avant lui et après lui (la langue française existait avant ta naissance ; tu ne l'as pas inventée).
-- **Contrainte** (ou coercition) : il **s'impose** à l'individu, qui subit une sanction s'il s'en écarte (parler une autre langue, ne pas dire bonjour, s'habiller « bizarrement » : moqueries, exclusion, amende).
-- **Généralité** (caractère collectif) : il est **partagé** par l'ensemble d'un groupe ; il est général parce qu'il est collectif, et non l'inverse.
+- **Contrainte** (ou **coercition**, le mot de Durkheim) : il **s'impose** à l'individu, qui subit une sanction s'il s'en écarte (parler une autre langue, ne pas dire bonjour, s'habiller « bizarrement » : moqueries, exclusion, amende).
+- **Généralité** (ou **régularité**) : il est **partagé** par l'ensemble d'un groupe et se **répète** de façon stable (le taux de suicide d'un pays est presque le même chaque année) ; il est général parce qu'il est collectif, et non l'inverse.
 Exemples : la langue, la monnaie, la mode, les règles de politesse, les croyances religieuses, le droit, et… le taux de suicide d'un pays.
 ## Les deux règles de méthode qui en découlent
 - **Traiter les faits sociaux comme des choses** : les observer **de l'extérieur**, **objectivement**, avec des données, en écartant les **prénotions** (les idées toutes faites, le sens commun : « on se suicide par folie », « par chagrin d'amour »).
@@ -92,7 +92,7 @@ X Ne pas dire « les catholiques se suicident moins parce que leur religion inte
 ],
 notions: [
  { terme: 'Fait social (Durkheim)', def: 'Manière d\'agir, de penser et de sentir, extérieure à l\'individu, qui s\'impose à lui par contrainte et qui est générale dans un groupe.', exemple: 'la langue, la monnaie, la mode, le taux de suicide' },
- { terme: 'Les trois caractéristiques du fait social', def: 'Extériorité (existe hors de l\'individu), contrainte (s\'impose à lui, sanction si écart), généralité (partagé par le groupe).' },
+ { terme: 'Les trois caractéristiques du fait social', def: 'Extériorité (existe hors de l\'individu), contrainte ou coercition (s\'impose à lui, sanction si écart), généralité ou régularité (partagé par le groupe, se répète de façon stable).' },
  { terme: 'Traiter les faits sociaux comme des choses', def: 'Première règle de méthode : observer les faits sociaux de l\'extérieur, objectivement, avec des données, en écartant les prénotions.' },
  { terme: 'Prénotion', def: 'Idée toute faite, issue du sens commun, que le sociologue doit écarter avant d\'étudier un fait social.', exemple: '« on se suicide par folie ou par chagrin d\'amour »' },
  { terme: 'Expliquer le social par le social', def: 'Deuxième règle : la cause d\'un fait social est un autre fait social, pas la psychologie ou la biologie d\'un individu.' },
@@ -110,7 +110,7 @@ notions: [
 ],
 quiz: [
  { q: 'Pour Durkheim, un fait social est…', choix: ['un événement de l\'actualité', 'une manière d\'agir extérieure à l\'individu qui s\'impose à lui', 'un choix personnel', 'un fait économique'], r: 1, exp: 'Extériorité, contrainte, généralité.' },
- { q: 'Quelle n\'est PAS une des trois caractéristiques du fait social ?', choix: ['extériorité', 'contrainte', 'généralité', 'rentabilité'], r: 3, exp: 'Les trois : extériorité, contrainte, généralité.' },
+ { q: 'Quelle n\'est PAS une des trois caractéristiques du fait social ?', choix: ['extériorité', 'coercition', 'régularité', 'rentabilité'], r: 3, exp: 'Les trois : extériorité, contrainte (coercition), généralité (régularité).' },
  { q: '« Traiter les faits sociaux comme des choses » signifie…', choix: ['les mépriser', 'les observer objectivement, de l\'extérieur, avec des données', 'les acheter', 'les expliquer par la psychologie'], r: 1, exp: 'Objectivité, écarter les prénotions.' },
  { q: 'Durkheim étudie le suicide à partir…', choix: ['de lettres de suicidés', 'd\'entretiens avec des familles', 'de taux de suicide par pays et par groupe', 'de son intuition'], r: 2, exp: 'Méthode quantitative : statistiques officielles.' },
  { q: 'Pourquoi le taux de suicide est-il un fait social ?', choix: ['parce qu\'il est stable d\'une année à l\'autre dans chaque société, indépendamment des individus', 'parce qu\'il est élevé', 'parce que le suicide est interdit', 'parce qu\'il baisse'], r: 0, exp: 'Régularité → réalité propre, extérieure aux individus.' },
@@ -128,7 +128,7 @@ pieges: [
  'Écrire « Durkeim » ou « Durckheim ». C\'est **Durkheim**.'
 ],
 astuces: [
- 'Mémo des trois caractéristiques : **E.C.G.** = Extériorité, Contrainte, Généralité.',
+ 'Mémo des trois caractéristiques : **E.C.G.** = Extériorité, Contrainte, Généralité (ou **E.C.R.** : Extériorité, Coercition, Régularité, selon le vocabulaire du cours).',
  'Mémo des types : intégration **trop faible → égoïste**, **trop forte → altruiste** ; régulation **trop faible → anomique**, **trop forte → fataliste**.',
  'Phrase de lecture d\'un tableau : « D\'après Durkheim, en Prusse entre 1849 et 1855, il y avait environ 160 suicides par million d\'habitants chez les protestants, contre environ 50 chez les catholiques, soit environ 3 fois plus. »',
  'Plan d\'une réponse rédigée : 1) définir (fait social, taux), 2) décrire la méthode (quantitative, comparative, objective), 3) donner un résultat chiffré, 4) expliquer (intégration / régulation), 5) conclure (le social explique l\'individuel).'
