@@ -45,99 +45,111 @@ exos: [
  { enonce: 'Le taux de chômage passe de 8 % à 10 %. Exprimer l\'évolution de deux façons.', correction: `En **points de pourcentage** : +2 points. En **pourcentage** : (10 − 8)/8 = +25 %. Les deux sont vraies mais ne disent pas la même chose.` }
 ]},
 
-{ id: 'ses-durkheim', theme: 'Sociologie et science politique', titre: 'La méthode de Durkheim : le suicide, un fait social', duree: 30,
+{ id: 'ses-durkheim', theme: 'Sociologie et science politique', titre: 'Le fait social de Durkheim : objet, méthode, Le Suicide', duree: 30,
 cours: [
-{ titre: 'Le projet de Durkheim', texte: `
-**Émile Durkheim** (1858-1917) est le fondateur de la sociologie française (première chaire de sociologie, à Bordeaux puis à la Sorbonne). Son projet : faire de la sociologie une **science** à part entière, comme la physique ou la biologie, avec :
-- un **objet propre** : les **faits sociaux** (et non les individus, étudiés par la psychologie) ;
-- une **méthode propre**, exposée dans *Les Règles de la méthode sociologique* (1895) ;
-- une **démonstration** : *Le Suicide* (1897), premier grand livre de sociologie fondé sur des statistiques.
-! L'idée de départ : si même le suicide, l'acte le plus intime et le plus individuel qui soit, a des causes sociales, alors tous nos comportements ont une part sociale.`},
-{ titre: 'Le fait social et ses trois caractéristiques', texte: `
-Un **fait social** est une « manière d'agir, de penser et de sentir » qui présente trois caractéristiques :
-- **Extériorité** : il existe **en dehors** de l'individu, avant lui et après lui (la langue française existait avant ta naissance ; tu ne l'as pas inventée).
-- **Contrainte** (ou **coercition**, le mot de Durkheim) : il **s'impose** à l'individu, qui subit une sanction s'il s'en écarte (parler une autre langue, ne pas dire bonjour, s'habiller « bizarrement » : moqueries, exclusion, amende).
-- **Généralité** (ou **régularité**) : il est **partagé** par l'ensemble d'un groupe et se **répète** de façon stable (le taux de suicide d'un pays est presque le même chaque année) ; il est général parce qu'il est collectif, et non l'inverse.
-Exemples : la langue, la monnaie, la mode, les règles de politesse, les croyances religieuses, le droit, et… le taux de suicide d'un pays.
-## Les deux règles de méthode qui en découlent
-- **Traiter les faits sociaux comme des choses** : les observer **de l'extérieur**, **objectivement**, avec des données, en écartant les **prénotions** (les idées toutes faites, le sens commun : « on se suicide par folie », « par chagrin d'amour »).
-- **Expliquer le social par le social** : la cause d'un fait social est toujours **un autre fait social**, jamais la psychologie ou la biologie d'un individu. C'est le **holisme** : la société est plus que la somme des individus, elle pèse sur eux.
-X Durkheim n'explique pas pourquoi **telle personne** se suicide (ça, c'est la psychologie) ; il explique pourquoi **un groupe** a un taux de suicide plus élevé qu'un autre.`},
-{ titre: 'Le Suicide (1897) : la démarche, étape par étape', texte: `
-**1. Construire un objet mesurable.** Durkheim ne travaille pas sur des cas, mais sur le **taux de suicide** :
+{ titre: 'Objet et méthode : comment on travaille et sur quoi', texte: `
+Le cours (« Des raisonnements complémentaires ») pose deux questions au sociologue : **sur quoi** il travaille (son **objet**) et **comment** il travaille (sa **méthode**).
+- **Objet** : le **fait social**. Le sociologue n'étudie pas des personnes une par une, mais des **comportements collectifs** (manières d'agir, de penser, de sentir partagées dans un groupe).
+- **Méthode scientifique** : la même démarche que l'économiste ou le politiste : **observer** des données, formuler une **hypothèse**, la **vérifier** par les chiffres, et rejeter ce que les chiffres contredisent. Le sociologue ne se contente pas d'opinions : il **vérifie**.
+**Émile Durkheim** (1858-1917), fondateur de la sociologie française, fixe cet objet et cette méthode dans *Les Règles de la méthode sociologique* (1895), puis les applique dans *Le Suicide* (1897).
+! Phrase à placer : « Durkheim donne à la sociologie un objet propre, le fait social, et une méthode scientifique, l'observation quantitative, qui permet de vérifier des hypothèses. »`},
+{ titre: 'Le fait social : les trois caractéristiques', texte: `
+Un **fait social** est une manière d'agir, de penser ou de sentir qui présente trois caractéristiques. Mémo : **E.C.R.**
+- **1. Extériorité** : le fait social existe **en dehors de l'individu**, avant lui et après lui. Donc les **causes des comportements sont à chercher à l'extérieur** de la personne, dans la société, et non dans sa psychologie. Exemple : tu n'as pas inventé la langue française ni les règles de politesse, tu les as trouvées en arrivant.
+- **2. Coercition** (contrainte) : le fait social **contraint** l'individu à adopter des **comportements bien déterminés**. Celui qui s'en écarte subit une **sanction** (moqueries, exclusion, amende, prison). Exemple : s'habiller « normalement », faire la queue, dire bonjour.
+- **3. Régularité** : les comportements **se répètent avec une logique**, ils ne sont pas dus au hasard. Les mêmes causes sociales produisent les mêmes effets d'une année sur l'autre. Exemple : chaque année, à peu près le même taux de mariages, de divorces, de suicides dans un pays.
+## Conséquence : on peut observer et compter
+Parce qu'ils sont **réguliers**, les faits sociaux peuvent être **observés** et **mesurés**. D'où la phrase du cours : **tous les comportements humains peuvent être analysés quantitativement**, même les plus intimes, même ceux de personnes isolées, qui semblent n'avoir rien de collectif. Il suffit de les compter et de calculer des **taux** pour faire apparaître la régularité.
+## Les deux règles qui en découlent
+- **Traiter les faits sociaux comme des choses** : les observer de l'extérieur, objectivement, avec des données, en écartant les **prénotions** (idées toutes faites du sens commun).
+- **Expliquer le social par le social** : la cause d'un fait social est un autre fait social, jamais la biologie ou la psychologie d'un individu (**holisme**).
+X Durkheim n'explique pas pourquoi **telle personne** agit ainsi, il explique pourquoi **un groupe** se comporte plus souvent ainsi qu'un autre.`},
+{ titre: 'Une application : Le Suicide (1897)', texte: `
+Durkheim choisit l'acte qui paraît le plus individuel et le plus intime : le suicide. Son pari : **si l'on isole le suicide comme un fait social, il y a des causes extérieures aux individus**, qui touchent **certaines catégories plus que d'autres**. Si cela marche pour le suicide, cela marche pour tous les comportements.
+**1. Construire une mesure**, le **taux de suicide** :
 $ Taux de suicide = nombre de suicides / population × 1 000 000 (suicides par million d'habitants)
-**2. Observer une régularité.** D'une année sur l'autre, le taux de chaque pays est remarquablement **stable**, alors que les individus qui se suicident changent. Chaque société « est prédisposée à fournir un contingent déterminé de morts volontaires ». Cette régularité prouve que le taux est un **fait social**, qui a une réalité propre.
-**3. Écarter les explications non sociales.** Avec les statistiques, Durkheim montre que ni la **folie** (les femmes sont plus internées mais se suicident moins), ni l'**hérédité** ou la « race », ni le **climat**, ni l'**imitation** ne rendent compte des variations du taux.
-**4. Comparer les taux de groupes sociaux** : c'est la **méthode comparative**, ou méthode des **variations concomitantes** (quand une variable sociale change, le taux change avec elle). Résultats :
-- Les **protestants** se suicident plus que les **catholiques**, eux-mêmes plus que les **juifs** (en Prusse, vers 1850 : environ 160 suicides par million chez les protestants contre environ 50 chez les catholiques).
-- Les **célibataires** plus que les **mariés**, et les couples **sans enfants** plus que ceux **avec enfants**.
-- Le taux **augmente** pendant les **crises économiques**, mais aussi pendant les **booms** d'enrichissement brutal.
-- Le taux **baisse** en temps de **guerre** ou de crise politique (la société se resserre).
-- Les **militaires** se suicident plus que les civils.
-**5. Conclure sur des causes sociales.** Les variations concomitantes ne sont pas des coïncidences : elles renvoient à deux forces sociales, l'**intégration** et la **régulation**.
-! Démarche scientifique complète : hypothèse → données chiffrées → comparaison → élimination des hypothèses fausses → explication. C'est une méthode **quantitative** (chiffres, taux), **comparative** (groupes, pays, périodes) et **objective** (faits traités comme des choses).`},
-{ titre: 'Les explications : intégration, régulation et les quatre types de suicide', texte: `
+**2. Observer la régularité** : d'une année sur l'autre, le taux de chaque pays est stable alors que les individus changent. Chaque société « est prédisposée à fournir un contingent déterminé de morts volontaires ». Le taux est donc un fait social (extérieur, régulier).
+**3. Écarter les explications non sociales** avec les chiffres : ni la **folie** (les femmes sont plus souvent internées mais se suicident moins), ni l'**hérédité**, ni le **climat**, ni l'**imitation** n'expliquent les variations.
+**4. Comparer les catégories** : c'est la **méthode comparative** (variations concomitantes). Résultats à connaître :
+- les **hommes** se suicident environ 3 à 4 fois plus que les **femmes** ;
+- les **protestants** plus que les **catholiques**, eux-mêmes plus que les **juifs** (Prusse, vers 1850 : environ 160 contre 50 par million) ;
+- les **célibataires** plus que les **mariés**, les couples **sans enfants** plus que ceux **avec enfants** ;
+- le taux **monte** pendant les **crises économiques** et les enrichissements brutaux, et **baisse** en temps de **guerre** ;
+- les **militaires** plus que les civils ; les **villes** plus que les campagnes.
+**5. Conclure** : ces écarts entre catégories prouvent des **causes extérieures aux individus**. Durkheim les ramène à deux forces : l'**intégration** et la **régulation**.
+! En une phrase : la méthode de Durkheim est **quantitative** (taux, statistiques), **comparative** (catégories, pays, périodes) et **objective** (faits traités comme des choses, hypothèses vérifiées).`},
+{ titre: 'Les explications : intégration, régulation, quatre types', texte: `
 - **Intégration** : force des **liens** qui rattachent l'individu à ses groupes (famille, religion, nation). « Le suicide varie en raison inverse du degré d'intégration des groupes sociaux dont fait partie l'individu. »
-- **Régulation** : force des **normes** qui encadrent et limitent les désirs des individus.
-Chaque force peut être en défaut ou en excès, d'où **quatre types** :
-- **Suicide égoïste** : **défaut d'intégration**. L'individu est trop seul, livré à lui-même. Ex. : célibataires, personnes sans enfants, protestants (le protestantisme laisse plus de place au libre examen individuel et encadre moins que le catholicisme, qui est plus communautaire).
-- **Suicide altruiste** : **excès d'intégration**. L'individu compte si peu face au groupe qu'il se sacrifie pour lui. Ex. : soldats, kamikazes, veuves tenues de suivre leur mari dans la mort, vieillards des sociétés traditionnelles.
-- **Suicide anomique** : **défaut de régulation** (**anomie** = absence de règles). Les désirs ne sont plus bornés : crises économiques, enrichissement brutal, divorce (anomie conjugale).
-- **Suicide fataliste** : **excès de régulation**. L'avenir est totalement bouché. Ex. : esclaves, jeunes époux mariés de force. Durkheim ne le mentionne qu'en note.
-X Ne pas dire « les catholiques se suicident moins parce que leur religion interdit le suicide » : le protestantisme l'interdit tout autant. La différence tient à l'**intégration** : la vie catholique est plus collective et plus encadrée.`},
-{ titre: 'Portée et limites', texte: `
-- **Apports** : première preuve que le social explique l'intime ; naissance de la sociologie quantitative ; les concepts d'intégration et d'anomie sont encore utilisés (chômage, isolement, déclassement). Christian Baudelot et Roger Establet (*Durkheim et le suicide*, 1984) retrouvent un siècle plus tard le lien entre crises économiques, chômage et suicide.
-- **Limites** : les statistiques de suicide sont **construites** (sous-déclaration dans les pays catholiques, où le suicide est honteux ; confusion possible avec les accidents) ; Maurice Halbwachs (1930) montre que l'opposition ville / campagne explique une partie des écarts entre religions ; passer d'une **corrélation** à une **causalité** reste un saut à justifier.
-- **Débat de méthode** : au **holisme** de Durkheim (la société pèse sur l'individu) s'oppose l'**individualisme méthodologique** de Max Weber (partir du sens que les individus donnent à leurs actes).`}
+- **Régulation** : force des **normes** qui encadrent et limitent les désirs.
+Chaque force peut manquer ou être en excès, d'où **quatre types** :
+- **Égoïste** : défaut d'intégration, l'individu est trop seul. Célibataires, personnes sans enfants, protestants (le protestantisme laisse l'individu seul face à sa foi, le catholicisme est plus communautaire).
+- **Altruiste** : excès d'intégration, l'individu se sacrifie pour le groupe. Soldats, kamikazes.
+- **Anomique** : défaut de régulation (**anomie** = absence de règles). Crises économiques, enrichissement brutal, divorce.
+- **Fataliste** : excès de régulation, avenir bouché. Esclaves (cité seulement en note par Durkheim).
+Pourquoi plus les hommes que les femmes ? Pour Durkheim, les femmes de l'époque vivent davantage dans la sphère familiale, plus intégrée et plus régulée ; les hommes sont plus exposés à la vie économique et à ses crises.
+X Ne pas dire « les catholiques se suicident moins parce que leur religion interdit le suicide » : le protestantisme l'interdit aussi. La différence tient à l'**intégration**.`},
+{ titre: 'Portée et limites (pour le 20)', texte: `
+- **Apports** : première preuve que le social explique l'individuel ; naissance de la sociologie **quantitative** ; intégration et anomie servent encore aujourd'hui (chômage, isolement). Christian Baudelot et Roger Establet (1984) retrouvent un siècle plus tard le lien entre crise économique, chômage et suicide.
+- **Limites** : les statistiques sont **construites** (le suicide est caché dans les pays catholiques, confondu parfois avec des accidents) ; Maurice Halbwachs (1930) montre que l'opposition ville / campagne explique une partie des écarts entre religions ; passer d'une **corrélation** à une **causalité** est un saut à justifier.
+- **Débat de méthode** : au **holisme** de Durkheim (la société explique l'individu) s'oppose l'**individualisme méthodologique** de Max Weber (partir du sens que les individus donnent à leurs actes). Les deux raisonnements sont **complémentaires** : c'est le titre du chapitre.`}
 ],
 notions: [
- { terme: 'Fait social (Durkheim)', def: 'Manière d\'agir, de penser et de sentir, extérieure à l\'individu, qui s\'impose à lui par contrainte et qui est générale dans un groupe.', exemple: 'la langue, la monnaie, la mode, le taux de suicide' },
- { terme: 'Les trois caractéristiques du fait social', def: 'Extériorité (existe hors de l\'individu), contrainte ou coercition (s\'impose à lui, sanction si écart), généralité ou régularité (partagé par le groupe, se répète de façon stable).' },
- { terme: 'Traiter les faits sociaux comme des choses', def: 'Première règle de méthode : observer les faits sociaux de l\'extérieur, objectivement, avec des données, en écartant les prénotions.' },
- { terme: 'Prénotion', def: 'Idée toute faite, issue du sens commun, que le sociologue doit écarter avant d\'étudier un fait social.', exemple: '« on se suicide par folie ou par chagrin d\'amour »' },
+ { terme: 'Objet de la sociologie', def: 'Le fait social : les comportements collectifs (manières d\'agir, de penser, de sentir) d\'un groupe, et non les individus pris un par un.' },
+ { terme: 'Méthode scientifique (en sociologie)', def: 'Observer des données, formuler une hypothèse, la vérifier par les chiffres, rejeter ce que les données contredisent.' },
+ { terme: 'Fait social (Durkheim)', def: 'Manière d\'agir, de penser et de sentir, extérieure à l\'individu, qui le contraint (coercition) et qui se répète régulièrement dans un groupe.', exemple: 'la langue, la monnaie, la mode, le taux de suicide' },
+ { terme: 'Extériorité (1re caractéristique)', def: 'Le fait social existe en dehors de l\'individu : les causes des comportements sont à chercher à l\'extérieur, dans la société.', exemple: 'on ne choisit pas sa langue maternelle' },
+ { terme: 'Coercition (2e caractéristique)', def: 'Le fait social contraint l\'individu à adopter des comportements bien déterminés, avec sanction s\'il s\'en écarte. Synonyme : contrainte.', exemple: 'faire la queue, dire bonjour' },
+ { terme: 'Régularité (3e caractéristique)', def: 'Les comportements se répètent avec une logique, pas au hasard. Synonyme : généralité. Conséquence : on peut les observer et les mesurer.', exemple: 'taux de suicide stable d\'une année sur l\'autre' },
+ { terme: 'Analyse quantitative', def: 'Étude fondée sur des données chiffrées (taux, statistiques). Pour Durkheim, tous les comportements humains, même les plus intimes, peuvent être analysés quantitativement.' },
+ { terme: 'Traiter les faits sociaux comme des choses', def: 'Première règle de méthode : observer les faits sociaux de l\'extérieur, objectivement, en écartant les prénotions.' },
+ { terme: 'Prénotion', def: 'Idée toute faite, issue du sens commun, que le sociologue doit écarter.', exemple: '« on se suicide par folie ou par chagrin d\'amour »' },
  { terme: 'Expliquer le social par le social', def: 'Deuxième règle : la cause d\'un fait social est un autre fait social, pas la psychologie ou la biologie d\'un individu.' },
- { terme: 'Holisme', def: 'Démarche qui part de la société (du tout) pour expliquer les comportements individuels. Opposé : individualisme méthodologique (Weber).' },
- { terme: 'Taux de suicide', def: 'Nombre de suicides rapporté à la population, exprimé pour un million d\'habitants. Permet de comparer des groupes de tailles différentes.' },
- { terme: 'Méthode comparative (variations concomitantes)', def: 'Comparer les taux de plusieurs groupes, pays ou périodes : si le taux varie avec une variable sociale, celle-ci est une cause possible.', exemple: 'protestants / catholiques, mariés / célibataires, crise / prospérité' },
- { terme: 'Méthode quantitative', def: 'Méthode fondée sur des données chiffrées (statistiques, taux, tableaux) et non sur des témoignages individuels.' },
- { terme: 'Intégration', def: 'Force des liens qui rattachent un individu à ses groupes (famille, religion, nation). Le suicide varie en raison inverse de l\'intégration.' },
+ { terme: 'Holisme', def: 'Démarche qui part de la société pour expliquer les comportements individuels. Opposé : individualisme méthodologique (Weber).' },
+ { terme: 'Taux de suicide', def: 'Nombre de suicides rapporté à la population, pour un million d\'habitants. Permet de comparer des catégories de tailles différentes.' },
+ { terme: 'Méthode comparative (variations concomitantes)', def: 'Comparer les taux de plusieurs catégories, pays ou périodes : si le taux varie avec une variable sociale, celle-ci est une cause possible.', exemple: 'hommes / femmes, protestants / catholiques, mariés / célibataires' },
+ { terme: 'Intégration', def: 'Force des liens qui rattachent un individu à ses groupes. Le suicide varie en raison inverse de l\'intégration.' },
  { terme: 'Régulation', def: 'Force des normes qui encadrent et limitent les désirs des individus.' },
  { terme: 'Suicide égoïste', def: 'Défaut d\'intégration : l\'individu est trop seul.', exemple: 'célibataires, protestants' },
- { terme: 'Suicide altruiste', def: 'Excès d\'intégration : l\'individu se sacrifie pour le groupe.', exemple: 'soldats, kamikazes' },
- { terme: 'Suicide anomique', def: 'Défaut de régulation (anomie) : les désirs ne sont plus bornés par des règles.', exemple: 'crise économique, enrichissement brutal, divorce' },
+ { terme: 'Suicide altruiste', def: 'Excès d\'intégration : l\'individu se sacrifie pour le groupe.', exemple: 'soldats' },
+ { terme: 'Suicide anomique', def: 'Défaut de régulation (anomie) : les désirs ne sont plus bornés par des règles.', exemple: 'crise économique, divorce' },
  { terme: 'Suicide fataliste', def: 'Excès de régulation : avenir totalement bouché.', exemple: 'esclaves' },
- { terme: 'Anomie', def: 'Situation où les normes sociales s\'affaiblissent ou disparaissent et ne régulent plus les conduites.' }
+ { terme: 'Anomie', def: 'Situation où les normes sociales s\'affaiblissent et ne régulent plus les conduites.' }
 ],
 quiz: [
- { q: 'Pour Durkheim, un fait social est…', choix: ['un événement de l\'actualité', 'une manière d\'agir extérieure à l\'individu qui s\'impose à lui', 'un choix personnel', 'un fait économique'], r: 1, exp: 'Extériorité, contrainte, généralité.' },
- { q: 'Quelle n\'est PAS une des trois caractéristiques du fait social ?', choix: ['extériorité', 'coercition', 'régularité', 'rentabilité'], r: 3, exp: 'Les trois : extériorité, contrainte (coercition), généralité (régularité).' },
- { q: '« Traiter les faits sociaux comme des choses » signifie…', choix: ['les mépriser', 'les observer objectivement, de l\'extérieur, avec des données', 'les acheter', 'les expliquer par la psychologie'], r: 1, exp: 'Objectivité, écarter les prénotions.' },
- { q: 'Durkheim étudie le suicide à partir…', choix: ['de lettres de suicidés', 'd\'entretiens avec des familles', 'de taux de suicide par pays et par groupe', 'de son intuition'], r: 2, exp: 'Méthode quantitative : statistiques officielles.' },
- { q: 'Pourquoi le taux de suicide est-il un fait social ?', choix: ['parce qu\'il est stable d\'une année à l\'autre dans chaque société, indépendamment des individus', 'parce qu\'il est élevé', 'parce que le suicide est interdit', 'parce qu\'il baisse'], r: 0, exp: 'Régularité → réalité propre, extérieure aux individus.' },
- { q: 'Comparer le taux des protestants et des catholiques, c\'est…', choix: ['la méthode expérimentale', 'la méthode comparative (variations concomitantes)', 'un sondage', 'une prénotion'], r: 1, exp: 'Faire varier une variable sociale et observer le taux.' },
+ { q: 'L\'objet de la sociologie selon Durkheim, c\'est…', choix: ['l\'individu et sa psychologie', 'le fait social, c\'est-à-dire les comportements collectifs', 'l\'économie', 'le pouvoir'], r: 1, exp: 'Le sociologue travaille sur les faits sociaux.' },
+ { q: 'Quelles sont les trois caractéristiques du fait social ?', choix: ['extériorité, coercition, régularité', 'liberté, choix, hasard', 'rareté, coût, profit', 'normes, valeurs, rôles'], r: 0, exp: 'E.C.R.' },
+ { q: 'L\'extériorité signifie que…', choix: ['le fait social se passe dehors', 'les causes des comportements sont à chercher à l\'extérieur de l\'individu, dans la société', 'l\'individu est libre', 'le fait social est rare'], r: 1, exp: 'Il existe avant et en dehors de l\'individu.' },
+ { q: 'La coercition signifie que le fait social…', choix: ['est facultatif', 'contraint à des comportements bien déterminés, avec sanction', 'est agréable', 'est économique'], r: 1, exp: 'Contrainte et sanction si l\'on s\'écarte.' },
+ { q: 'La régularité signifie que les comportements…', choix: ['sont imprévisibles', 'se répètent avec une logique et peuvent donc être mesurés', 'sont tous identiques', 'sont illégaux'], r: 1, exp: 'D\'où l\'analyse quantitative.' },
+ { q: 'Pour Durkheim, peut-on analyser quantitativement les comportements les plus intimes ?', choix: ['non, seulement les comportements économiques', 'oui, tous les comportements humains, car ils sont réguliers', 'non, c\'est impossible', 'oui, mais seulement par des entretiens'], r: 1, exp: 'C\'est la démonstration du Suicide.' },
+ { q: 'Pourquoi le taux de suicide est-il un fait social ?', choix: ['parce qu\'il est stable d\'une année à l\'autre dans chaque société, indépendamment des individus', 'parce qu\'il est élevé', 'parce que le suicide est interdit', 'parce qu\'il baisse'], r: 0, exp: 'Régularité → causes extérieures aux individus.' },
+ { q: 'Durkheim étudie le suicide à partir…', choix: ['de lettres de suicidés', 'd\'entretiens avec des familles', 'de taux de suicide par pays et par catégorie', 'de son intuition'], r: 2, exp: 'Méthode quantitative et comparative.' },
+ { q: 'Dans Le Suicide, quelle catégorie se suicide le plus ?', choix: ['les femmes mariées', 'les hommes', 'les catholiques', 'les personnes avec enfants'], r: 1, exp: 'Hommes > femmes, protestants > catholiques, célibataires > mariés.' },
  { q: 'Le suicide des célibataires est plus fréquent : c\'est un suicide…', choix: ['altruiste', 'anomique', 'égoïste', 'fataliste'], r: 2, exp: 'Défaut d\'intégration.' },
- { q: 'Le suicide augmente en période de crise économique : c\'est un suicide…', choix: ['égoïste', 'anomique', 'altruiste', 'fataliste'], r: 1, exp: 'Défaut de régulation : les repères s\'effondrent.' },
- { q: 'Un soldat qui se sacrifie pour son régiment relève du suicide…', choix: ['altruiste', 'égoïste', 'anomique', 'fataliste'], r: 0, exp: 'Excès d\'intégration : le groupe compte plus que l\'individu.' },
- { q: '« Expliquer le social par le social » veut dire…', choix: ['interroger les gens', 'chercher la cause d\'un fait social dans un autre fait social', 'étudier le cerveau', 'faire de la politique'], r: 1, exp: 'Jamais par la psychologie ou la biologie individuelle.' }
+ { q: 'Le suicide augmente en période de crise économique : c\'est un suicide…', choix: ['égoïste', 'anomique', 'altruiste', 'fataliste'], r: 1, exp: 'Défaut de régulation.' },
+ { q: '« Expliquer le social par le social » veut dire…', choix: ['interroger les gens', 'chercher la cause d\'un fait social dans un autre fait social', 'étudier le cerveau', 'faire de la politique'], r: 1, exp: 'Jamais par la psychologie individuelle.' }
 ],
 pieges: [
- 'Croire que Durkheim explique pourquoi telle personne se suicide. Non : il explique les **taux**, c\'est-à-dire pourquoi un groupe se suicide plus qu\'un autre.',
+ 'Croire que Durkheim explique pourquoi telle personne se suicide. Non : il explique les **taux**, pourquoi une catégorie se suicide plus qu\'une autre.',
+ 'Confondre **coercition** (le fait social contraint) et **régularité** (il se répète). La coercition parle de la sanction, la régularité de la répétition.',
  'Confondre **intégration** (liens, appartenance) et **régulation** (règles, normes). Égoïste / altruiste = intégration ; anomique / fataliste = régulation.',
- 'Dire « les catholiques se suicident moins parce que leur religion interdit le suicide » : le protestantisme l\'interdit aussi. La bonne réponse est le degré d\'intégration.',
- 'Oublier que le taux est rapporté à la population (par million d\'habitants) : comparer des nombres bruts de suicides entre un grand et un petit pays n\'a aucun sens.',
- 'Écrire « Durkeim » ou « Durckheim ». C\'est **Durkheim**.'
+ 'Dire « les catholiques se suicident moins parce que leur religion interdit le suicide » : le protestantisme l\'interdit aussi. Répondre : intégration.',
+ 'Comparer des nombres bruts au lieu de **taux** (par million d\'habitants).',
+ 'Écrire « Durkeim ». C\'est **Durkheim**.'
 ],
 astuces: [
- 'Mémo des trois caractéristiques : **E.C.G.** = Extériorité, Contrainte, Généralité (ou **E.C.R.** : Extériorité, Coercition, Régularité, selon le vocabulaire du cours).',
- 'Mémo des types : intégration **trop faible → égoïste**, **trop forte → altruiste** ; régulation **trop faible → anomique**, **trop forte → fataliste**.',
- 'Phrase de lecture d\'un tableau : « D\'après Durkheim, en Prusse entre 1849 et 1855, il y avait environ 160 suicides par million d\'habitants chez les protestants, contre environ 50 chez les catholiques, soit environ 3 fois plus. »',
- 'Plan d\'une réponse rédigée : 1) définir (fait social, taux), 2) décrire la méthode (quantitative, comparative, objective), 3) donner un résultat chiffré, 4) expliquer (intégration / régulation), 5) conclure (le social explique l\'individuel).'
+ 'Mémo : **E.C.R.** = Extériorité (causes à l\'extérieur), Coercition (contraint, sanction), Régularité (se répète, donc mesurable).',
+ 'Chaîne logique à réciter : régularité → on peut compter → analyse quantitative → taux → comparaison des catégories → causes extérieures aux individus.',
+ 'Mémo des types : intégration trop faible → égoïste, trop forte → altruiste ; régulation trop faible → anomique, trop forte → fataliste.',
+ 'Phrase de lecture : « D\'après Durkheim, en Prusse entre 1849 et 1855, il y avait environ 160 suicides par million d\'habitants chez les protestants, contre environ 50 chez les catholiques, soit environ 3 fois plus. »',
+ 'Plan d\'une réponse rédigée : 1) définir (fait social, 3 caractéristiques), 2) méthode (quantitative, comparative, vérifier), 3) un résultat chiffré, 4) expliquer (causes extérieures : intégration / régulation), 5) conclure (le social explique l\'individuel).'
 ],
 exos: [
- { enonce: 'Pourquoi peut-on dire, selon Durkheim, que le suicide est un fait social ? (réponse rédigée, 10 lignes)', correction: `Le suicide semble l'acte le plus individuel qui soit. Pourtant, Durkheim observe dans *Le Suicide* (1897) que le **taux de suicide** (nombre de suicides par million d'habitants) de chaque pays est **stable d'une année sur l'autre**, alors que les personnes qui se suicident changent. Cette régularité ne peut pas venir des individus : elle vient de la société. Le taux présente les trois caractéristiques du fait social : il est **extérieur** aux individus, il **s'impose** à eux (chaque société « fournit un contingent déterminé de morts volontaires ») et il est **général**. Durkheim montre ensuite, par la **méthode comparative**, que le taux varie avec des variables sociales (religion, situation familiale, conjoncture économique) et non avec la folie ou le climat. Il explique donc **le social par le social** : ce sont le degré d'**intégration** et de **régulation** des groupes qui font varier le suicide.` },
- { enonce: 'Document : taux de suicide par million d\'habitants en Prusse (1849-1855) : protestants 159,9 ; catholiques 49,6 ; juifs 46,4. 1) Rédiger une phrase de lecture pour les protestants. 2) Calculer le rapport protestants / catholiques. 3) Comment Durkheim explique-t-il cet écart ?', correction: `1) D'après Durkheim, en Prusse entre 1849 et 1855, on comptait 159,9 suicides par million d'habitants protestants. 2) 159,9 / 49,6 ≈ **3,2** : les protestants se suicident environ 3 fois plus que les catholiques. 3) Les deux religions condamnent le suicide ; la différence tient donc à l'**intégration**. Le catholicisme encadre davantage la vie de ses fidèles (rites, hiérarchie, communauté), tandis que le protestantisme laisse l'individu plus seul face à sa foi (libre examen). Moins intégrés, les protestants sont plus exposés au suicide **égoïste**.` },
- { enonce: 'Classer les situations suivantes dans l\'un des quatre types de suicide et justifier : a) un krach boursier ; b) un célibataire sans famille ; c) un soldat qui se sacrifie ; d) un esclave.', correction: `a) **Anomique** : la crise détruit les repères, les désirs et les positions ne sont plus régulés. b) **Égoïste** : défaut d'intégration, l'individu n'est rattaché à aucun groupe protecteur. c) **Altruiste** : excès d'intégration, l'individu s'efface devant le groupe. d) **Fataliste** : excès de régulation, aucun avenir possible.` },
- { enonce: 'Expliquer la différence entre la démarche de Durkheim et une explication psychologique du suicide.', correction: `L'explication psychologique part de l'**individu** : son histoire, ses troubles, ses émotions ; elle répond à « pourquoi cette personne ? ». Durkheim part de la **société** : il compare des **taux** entre groupes et répond à « pourquoi ce groupe plus qu'un autre ? ». Il écarte explicitement la folie comme cause des variations du taux, et cherche des causes **sociales** (intégration, régulation). C'est le principe « expliquer le social par le social », propre au **holisme**.` }
+ { enonce: 'Présenter les trois caractéristiques du fait social selon Durkheim, chacune avec un exemple.', correction: `**Extériorité** : le fait social existe en dehors de l'individu, avant lui ; les causes des comportements sont donc à chercher à l'extérieur, dans la société. Exemple : la langue que je parle existait avant ma naissance. **Coercition** : le fait social contraint l'individu à adopter des comportements bien déterminés, sous peine de sanction. Exemple : si je ne fais pas la queue, on me rappelle à l'ordre. **Régularité** : les comportements se répètent avec une logique, ils ne sont pas dus au hasard, ce qui permet de les observer et de les mesurer. Exemple : le taux de suicide d'un pays est presque le même chaque année.` },
+ { enonce: 'Pourquoi peut-on dire, selon Durkheim, que le suicide est un fait social ? (réponse rédigée, 10 lignes)', correction: `Le suicide semble l'acte le plus individuel qui soit. Pourtant, Durkheim observe dans *Le Suicide* (1897) que le **taux de suicide** (nombre de suicides par million d'habitants) de chaque pays est **stable d'une année sur l'autre**, alors que les personnes changent : c'est la **régularité**. Cette régularité ne peut pas venir des individus, elle vient de la société : les causes sont **extérieures** aux individus. En comparant les catégories (**méthode comparative**), Durkheim montre que le taux varie avec des variables sociales : les hommes plus que les femmes, les protestants plus que les catholiques, les célibataires plus que les mariés, et non avec la folie ou le climat. Il explique donc **le social par le social** : ce sont le degré d'**intégration** et de **régulation** des groupes qui font varier le suicide. Si même le suicide est un fait social, tous les comportements humains peuvent être analysés quantitativement.` },
+ { enonce: 'Document : taux de suicide par million d\'habitants en Prusse (1849-1855) : protestants 159,9 ; catholiques 49,6 ; juifs 46,4. 1) Rédiger une phrase de lecture pour les protestants. 2) Calculer le rapport protestants / catholiques. 3) Comment Durkheim explique-t-il cet écart ?', correction: `1) D'après Durkheim, en Prusse entre 1849 et 1855, on comptait 159,9 suicides par million d'habitants protestants. 2) 159,9 / 49,6 ≈ **3,2** : les protestants se suicident environ 3 fois plus que les catholiques. 3) Les deux religions condamnent le suicide ; la différence tient donc à l'**intégration**. Le catholicisme encadre davantage la vie de ses fidèles (rites, hiérarchie, communauté), tandis que le protestantisme laisse l'individu plus seul face à sa foi. Moins intégrés, les protestants sont plus exposés au suicide **égoïste**.` },
+ { enonce: 'Classer les situations suivantes dans l\'un des quatre types de suicide et justifier : a) un krach boursier ; b) un célibataire sans famille ; c) un soldat qui se sacrifie ; d) un esclave.', correction: `a) **Anomique** : la crise détruit les repères, les désirs ne sont plus régulés. b) **Égoïste** : défaut d'intégration. c) **Altruiste** : excès d'intégration. d) **Fataliste** : excès de régulation, aucun avenir.` },
+ { enonce: 'Expliquer la différence entre la démarche de Durkheim et une explication psychologique du suicide.', correction: `L'explication psychologique part de l'**individu** (son histoire, ses émotions) et répond à « pourquoi cette personne ? ». Durkheim part de la **société** : il compare des **taux** entre catégories et répond à « pourquoi cette catégorie plus qu'une autre ? ». Il écarte la folie comme cause des variations du taux et cherche des causes **extérieures aux individus** (intégration, régulation). C'est « expliquer le social par le social », le principe du **holisme**.` }
 ]},
 
 { id: 'ses-production', theme: 'Science économique', titre: 'Comment crée-t-on des richesses et comment les mesure-t-on ?', duree: 30,
