@@ -172,7 +172,7 @@
     switchInit();
     const el = $('#tab');
     if (tab === 'cours') {
-      el.innerHTML = `<div class="carte cours">${c.cours.map(s => `<h4>${esc(s.titre)}</h4>${md(s.texte)}`).join('')}</div>
+      el.innerHTML = `${c.carte ? `<div class="carte mentale"><h4>Carte mentale</h4>${c.carte}</div>` : ''}<div class="carte cours">${c.cours.map(s => `<h4>${esc(s.titre)}</h4>${md(s.texte)}`).join('')}</div>
       <div class="actions"><button class="plaque" id="luBtn">${state.lu[c.id] ? 'Revoir les cartes' : 'Marquer comme lu'}${GE.fleche}</button>${next ? `<a class="fantome" href="#/chapitre/${next.id}">Chapitre suivant</a>` : ''}</div>`;
       $('#luBtn').onclick = () => { state.lu[c.id] = true; save(); location.hash = '#/chapitre/' + c.id + '/flash'; };
     }

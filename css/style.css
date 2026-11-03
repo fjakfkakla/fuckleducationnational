@@ -217,3 +217,7 @@ sub{font-size:.75em}
   .tete .droite{width:100%}
 }
 @media (max-width:440px){.tuiles{grid-template-columns:1fr}}
+
+.mentale{margin-bottom:16px}
+.mentale h4{margin:0 0 10px}
+.mentale svg{width:100%;height:auto;display:block}
